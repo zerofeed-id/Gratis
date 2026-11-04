@@ -7,6 +7,21 @@ OUTPUT_DIR = "Sumber Gratis"
 SELECT_FILE = "chanel_pilihan.txt"
 CUSTOM_PLAYLIST = "ZeroTVGRATIS.m3u"
 
+def is_link_active(url):
+    """Fungsi untuk mengecek apakah link stream aktif / bisa diakses"""
+    try:
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'}, method='HEAD')
+        with urllib.request.urlopen(req, timeout=3) as resp:
+            return resp.status < 400
+    except:
+        try:
+            # Fallback menggunakan GET jika HEAD diblokir server
+            req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+            with urllib.request.urlopen(req, timeout=3) as resp:
+                return resp.status < 400
+        except:
+            return False
+
 def parse_and_split_m3u():
     if not os.path.exists(OUTPUT_DIR):
         os.makedirs(OUTPUT_DIR)
@@ -74,7 +89,7 @@ def parse_and_split_m3u():
                 for bline in block:
                     f.write(f"{bline}\n")
 
-    # 2. Buat playlist gabungan khusus berdasarkan chanel_pilihan.txt
+    # 2. Buat playlist gabungan khusus berdasarkan chanel_pilihan.txt (Hanya yang Aktif)
     if os.path.exists(SELECT_FILE):
         with open(SELECT_FILE, "r", encoding="utf-8") as f:
             selected_names = [line.strip() for line in f if line.strip() and not line.startswith("#")]
@@ -85,10 +100,27 @@ def parse_and_split_m3u():
                 for name in selected_names:
                     safe_target = re.sub(r'[\\/*?:"<>|]', "", name).strip().replace(" ", "_")
                     if safe_target in channels:
+                        active_blocks = []
                         for block in channels[safe_target]:
+                            # Cari baris URL di dalam blok (biasanya baris terakhir dari blok atau bukan tag #)
+                            stream_url = None
                             for bline in block:
-                                f.write(f"{bline}\n")
-                        print(f"Menambahkan ke playlist pilihan: {name}")
+                                if not bline.startswith("#"):
+                                    stream_url = bline
+                                    break
+                            
+                            # Cek apakah link stream aktif
+                            if stream_url and is_link_active(stream_url):
+                                active_blocks.append(block)
+                                
+                        # Jika ada blok yang aktif, tulis ke playlist pilihan
+                        if active_blocks:
+                            for block in active_blocks:
+                                for bline in block:
+                                    f.write(f"{bline}\n")
+                            print(f"Channel AKTIF ditambahkan: {name} ({len(active_blocks)} link aktif)")
+                        else:
+                            print(f"Channel MATI / OFFLINE (dilewati): {name}")
             print(f"Berhasil memperbarui playlist custom: {CUSTOM_PLAYLIST}")
 
 if __name__ == "__main__":
