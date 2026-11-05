@@ -1,14 +1,39 @@
 import os
 import re
 import urllib.request
+import json
+import base64
 
 SOURCES_FILE = "sources.txt"
 OUTPUT_DIR = "Sumber Gratis"
 SELECT_FILE = "chanel_pilihan.txt"
 CUSTOM_PLAYLIST = "ZeroTVGRATIS.m3u"
 
-# Mengambil token dari GitHub Secrets secara aman
 GITHUB_TOKEN = os.environ.get("GH_PAT", "")
+
+def fetch_url_content(url):
+    headers = {'User-Agent': 'Mozilla/5.0'}
+    
+    # Jika link berasal dari GitHub dan token tersedia, gunakan GitHub API untuk repo private
+    target_url = url
+    if "githubusercontent.com" in url and GITHUB_TOKEN:
+        # Contoh konversi raw ke API: 
+        # https://raw.githubusercontent.com/USER/REPO/main/PATH -> https://api.github.com/repos/USER/REPO/contents/PATH
+        parts = url.replace("https://raw.githubusercontent.com/", "").split("/")
+        if len(parts) >= 3:
+            owner = parts[0]
+            repo = parts[1]
+            # Lewati branch (biasanya 'main' atau 'master' di indeks 2)
+            path = "/".join(parts[3:])
+            target_url = f"https://api.github.com/repos/{owner}/{repo}/contents/{path}"
+            headers['Accept'] = 'application/vnd.github.v3.raw'
+            headers['Authorization'] = f"token {GITHUB_TOKEN}"
+    elif "github.com" in url and GITHUB_TOKEN and "api.github.com" not in url:
+        headers['Authorization'] = f"token {GITHUB_TOKEN}"
+
+    req = urllib.request.Request(target_url, headers=headers)
+    with urllib.request.urlopen(req, timeout=15) as response:
+        return response.read().decode('utf-8')
 
 def parse_and_split_m3u():
     if not os.path.exists(OUTPUT_DIR):
@@ -29,16 +54,8 @@ def parse_and_split_m3u():
 
     for url_idx, source_url in enumerate(source_urls, 1):
         print(f"Mengambil data dari URL ke-{url_idx}: {source_url}")
-        
-        headers = {'User-Agent': 'Mozilla/5.0'}
-        # Jika link berasal dari GitHub dan token tersedia, tambahkan header otorisasi
-        if "githubusercontent.com" in source_url and GITHUB_TOKEN:
-            headers['Authorization'] = f"token {GITHUB_TOKEN}"
-
-        req = urllib.request.Request(source_url, headers=headers)
         try:
-            with urllib.request.urlopen(req, timeout=10) as response:
-                content = response.read().decode('utf-8')
+            content = fetch_url_content(source_url)
         except Exception as e:
             print(f"GAGAL mengambil data dari URL {source_url}: {e}")
             continue
