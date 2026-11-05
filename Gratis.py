@@ -25,16 +25,18 @@ def parse_and_split_m3u():
     channels = {}
 
     for url_idx, source_url in enumerate(source_urls, 1):
-        print(f"Mengambil data dari Sumber ke-{url_idx}: {source_url}")
+        print(f"Mengambil data dari URL ke-{url_idx}: {source_url}")
         req = urllib.request.Request(source_url, headers={'User-Agent': 'Mozilla/5.0'})
         try:
-            with urllib.request.urlopen(req) as response:
+            with urllib.request.urlopen(req, timeout=10) as response:
                 content = response.read().decode('utf-8')
         except Exception as e:
-            print(f"Gagal mengambil data dari {source_url}: {e}")
+            print(f"GAGAL mengambil data dari URL {source_url}: {e}")
             continue
 
         lines = content.splitlines()
+        print(f"Berhasil membaca {len(lines)} baris dari sumber ke-{url_idx}")
+        
         i = 0
         while i < len(lines):
             line = lines[i].strip()
@@ -74,7 +76,7 @@ def parse_and_split_m3u():
                 for bline in block:
                     f.write(f"{bline}\n")
 
-    # 2. Buat playlist gabungan khusus berdasarkan chanel_pilihan.txt (Tanpa filter uji link yang memblokir)
+    # 2. Buat playlist gabungan khusus berdasarkan chanel_pilihan.txt
     if os.path.exists(SELECT_FILE):
         with open(SELECT_FILE, "r", encoding="utf-8") as f:
             selected_names = [line.strip() for line in f if line.strip() and not line.startswith("#")]
@@ -90,7 +92,7 @@ def parse_and_split_m3u():
                                 f.write(f"{bline}\n")
                         print(f"Channel ditambahkan: {name}")
                     else:
-                        print(f"Channel tidak ditemukan di sumber: {name}")
+                        print(f"Channel pilihan tidak ditemukan di semua sumber: {name}")
             print(f"Berhasil memperbarui playlist custom: {CUSTOM_PLAYLIST}")
 
 if __name__ == "__main__":
