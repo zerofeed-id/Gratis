@@ -1,8 +1,6 @@
 import os
 import re
 import urllib.request
-import json
-import base64
 
 SOURCES_FILE = "sources.txt"
 OUTPUT_DIR = "Sumber Gratis"
@@ -13,17 +11,12 @@ GITHUB_TOKEN = os.environ.get("GH_PAT", "")
 
 def fetch_url_content(url):
     headers = {'User-Agent': 'Mozilla/5.0'}
-    
-    # Jika link berasal dari GitHub dan token tersedia, gunakan GitHub API untuk repo private
     target_url = url
     if "githubusercontent.com" in url and GITHUB_TOKEN:
-        # Contoh konversi raw ke API: 
-        # https://raw.githubusercontent.com/USER/REPO/main/PATH -> https://api.github.com/repos/USER/REPO/contents/PATH
         parts = url.replace("https://raw.githubusercontent.com/", "").split("/")
         if len(parts) >= 3:
             owner = parts[0]
             repo = parts[1]
-            # Lewati branch (biasanya 'main' atau 'master' di indeks 2)
             path = "/".join(parts[3:])
             target_url = f"https://api.github.com/repos/{owner}/{repo}/contents/{path}"
             headers['Accept'] = 'application/vnd.github.v3.raw'
@@ -34,6 +27,10 @@ def fetch_url_content(url):
     req = urllib.request.Request(target_url, headers=headers)
     with urllib.request.urlopen(req, timeout=15) as response:
         return response.read().decode('utf-8')
+
+def normalize_name(name):
+    """Fungsi untuk membersihkan teks agar pencocokan lebih fleksibel (mengabaikan spasi, simbol, dan huruf besar/kecil)"""
+    return re.sub(r'[^a-z0-9]', '', name.lower())
 
 def parse_and_split_m3u():
     if not os.path.exists(OUTPUT_DIR):
@@ -51,6 +48,7 @@ def parse_and_split_m3u():
         return
 
     channels = {}
+    normalized_channels = {}
 
     for url_idx, source_url in enumerate(source_urls, 1):
         print(f"Mengambil data dari URL ke-{url_idx}: {source_url}")
@@ -61,7 +59,6 @@ def parse_and_split_m3u():
             continue
 
         lines = content.splitlines()
-        print(f"Berhasil membaca {len(lines)} baris dari sumber ke-{url_idx}")
         
         i = 0
         while i < len(lines):
@@ -91,6 +88,12 @@ def parse_and_split_m3u():
                 if safe_name not in channels:
                     channels[safe_name] = []
                 channels[safe_name].append(block_lines)
+                
+                # Buat kamus normalisasi untuk pencocokan fleksibel
+                norm_key = normalize_name(safe_name)
+                if norm_key not in normalized_channels:
+                    normalized_channels[norm_key] = []
+                normalized_channels[norm_key].append(block_lines)
             i += 1
 
     # 1. Simpan file M3U terpisah per channel di folder Sumber Gratis
@@ -102,7 +105,7 @@ def parse_and_split_m3u():
                 for bline in block:
                     f.write(f"{bline}\n")
 
-    # 2. Buat playlist gabungan khusus berdasarkan chanel_pilihan.txt
+    # 2. Buat playlist gabungan berdasarkan chanel_pilihan.txt secara fleksibel
     if os.path.exists(SELECT_FILE):
         with open(SELECT_FILE, "r", encoding="utf-8") as f:
             selected_names = [line.strip() for line in f if line.strip() and not line.startswith("#")]
@@ -111,14 +114,21 @@ def parse_and_split_m3u():
             with open(CUSTOM_PLAYLIST, "w", encoding="utf-8") as f:
                 f.write("#EXTM3U\n")
                 for name in selected_names:
-                    safe_target = re.sub(r'[\\/*?:"<>|]', "", name).strip().replace(" ", "_")
-                    if safe_target in channels:
-                        for block in channels[safe_target]:
-                            for bline in block:
-                                f.write(f"{bline}\n")
-                        print(f"Channel ditambahkan: {name}")
-                    else:
-                        print(f"Channel pilihan tidak ditemukan di semua sumber: {name}")
+                    norm_target = normalize_name(name)
+                    found = False
+                    
+                    # Cocokkan dengan kunci yang dinormalisasi
+                    for n_key, blocks in normalized_channels.items():
+                        if norm_target in n_key or n_key in norm_target:
+                            for block in blocks:
+                                for bline in block:
+                                    f.write(f"{bline}\n")
+                            print(f"Channel ditambahkan (fleksibel): {name}")
+                            found = True
+                            break
+                    
+                    if not found:
+                        print(f"Channel pilihan tidak ditemukan: {name}")
             print(f"Berhasil memperbarui playlist custom: {CUSTOM_PLAYLIST}")
 
 if __name__ == "__main__":
