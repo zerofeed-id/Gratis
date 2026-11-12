@@ -7,7 +7,7 @@ OUTPUT_DIR = "Sumber Gratis"
 SELECT_FILE = "chanel_pilihan.txt"
 CUSTOM_PLAYLIST = "ZeroTVGRATIS.m3u"
 
-# Link streaming permanen Anda
+# Link streaming permanen Anda di urutan teratas
 PERMANENT_STREAM_URL = "https://raw.githubusercontent.com/zerofeed-id/WELCOME/refs/heads/main/ZeroTV_Tele.ts"
 
 GITHUB_TOKEN = os.environ.get("GH_PAT", "")
@@ -99,6 +99,20 @@ def parse_and_split_m3u():
                 normalized_channels[norm_key].append(block_lines)
             i += 1
 
+    # --- TAMBAHAN: Hapus otomatis file .m3u di folder Sumber Gratis jika channel sudah tidak ada di sumber ---
+    current_channel_files = {f"{channel_name}.m3u" for channel_name in channels.keys()}
+    if os.path.exists(OUTPUT_DIR):
+        for existing_file in os.listdir(OUTPUT_DIR):
+            if existing_file.endswith(".m3u"):
+                if existing_file not in current_channel_files:
+                    old_file_path = os.path.join(OUTPUT_DIR, existing_file)
+                    try:
+                        os.remove(old_file_path)
+                        print(f"File channel kedaluwarsa dihapus: {existing_file}")
+                    except Exception as e:
+                        print(f"Gagal menghapus file {existing_file}: {e}")
+    # -----------------------------------------------------------------------------------------------------
+
     # 1. Simpan file M3U terpisah per channel di folder Sumber Gratis
     for channel_name, entries in channels.items():
         file_path = os.path.join(OUTPUT_DIR, f"{channel_name}.m3u")
@@ -116,14 +130,14 @@ def parse_and_split_m3u():
         with open(CUSTOM_PLAYLIST, "w", encoding="utf-8") as f:
             f.write("#EXTM3U\n")
             
-            # --- PENYEMATAN LANGSUNG CHANNEL PERMANEN KE BARIS TERATAS ---
+            # --- PENYEMATAN CHANNEL PERMANEN KE BARIS TERATAS ---
             try:
                 f.write('#EXTINF:-1 tvg-id="ZeroTV" tvg-name="ZeroTV" group-title="ZeroTV Official",ZeroTV Special\n')
                 f.write(PERMANENT_STREAM_URL + "\n")
                 print("Channel permanen berhasil disematkan di urutan teratas.")
             except Exception as e:
                 print(f"GAGAL menyematkan channel permanen: {e}")
-            # -------------------------------------------------------------
+            # ----------------------------------------------------
 
             # Cek apakah user ingin menampilkan SEMUA channel atau menggunakan filter
             is_load_all = not selected_names or any(name.lower() in ["all", "all chanel", "semua"] for name in selected_names)
