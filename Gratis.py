@@ -7,19 +7,14 @@ OUTPUT_DIR = "Sumber Gratis"
 SELECT_FILE = "chanel_pilihan.txt"
 CUSTOM_PLAYLIST = "ZeroTVGRATIS.m3u"
 
-# Link channel permanen Anda
-PERMANENT_CHANNEL_URL = "https://raw.githubusercontent.com/zerofeed-id/WELCOME/refs/heads/main/ZeroTV_Tele.ts"
+# Link streaming permanen Anda
+PERMANENT_STREAM_URL = "https://raw.githubusercontent.com/zerofeed-id/WELCOME/refs/heads/main/ZeroTV_Tele.ts"
 
 GITHUB_TOKEN = os.environ.get("GH_PAT", "")
 
 def fetch_url_content(url):
     headers = {'User-Agent': 'Mozilla/5.0'}
     target_url = url
-    
-    if "zerofeed-id/WELCOME" in url:
-        req = urllib.request.Request(target_url, headers=headers)
-        with urllib.request.urlopen(req, timeout=15) as response:
-            return response.read().decode('utf-8', errors='ignore')
 
     if "githubusercontent.com" in url and GITHUB_TOKEN:
         parts = url.replace("https://raw.githubusercontent.com/", "").split("/")
@@ -121,18 +116,14 @@ def parse_and_split_m3u():
         with open(CUSTOM_PLAYLIST, "w", encoding="utf-8") as f:
             f.write("#EXTM3U\n")
             
-            # --- PENANGANAN KHUSUS CHANNEL PERMANEN (LANGSUNG TULIS KE ATAS) ---
+            # --- PENYEMATAN LANGSUNG CHANNEL PERMANEN KE BARIS TERATAS ---
             try:
-                print(f"Mengambil data channel permanen: {PERMANENT_CHANNEL_URL}")
-                req = urllib.request.Request(PERMANENT_CHANNEL_URL, headers={'User-Agent': 'Mozilla/5.0'})
-                with urllib.request.urlopen(req, timeout=15) as resp:
-                    perm_data = resp.read().decode('utf-8', errors='ignore').strip()
-                    if perm_data:
-                        f.write(perm_data + "\n")
-                        print("Channel permanen berhasil disematkan di urutan teratas.")
+                f.write('#EXTINF:-1 tvg-id="ZeroTV" tvg-name="ZeroTV" group-title="ZeroTV Official",ZeroTV Special\n')
+                f.write(PERMANENT_STREAM_URL + "\n")
+                print("Channel permanen berhasil disematkan di urutan teratas.")
             except Exception as e:
-                print(f"GAGAL mengambil channel permanen: {e}")
-            # -----------------------------------------------------------------
+                print(f"GAGAL menyematkan channel permanen: {e}")
+            # -------------------------------------------------------------
 
             # Cek apakah user ingin menampilkan SEMUA channel atau menggunakan filter
             is_load_all = not selected_names or any(name.lower() in ["all", "all chanel", "semua"] for name in selected_names)
