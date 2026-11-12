@@ -2,8 +2,8 @@ name: Auto Update ZeroTV Gratis
 
 on:
   schedule:
-    - cron: '0 * * * *' # Auto update setiap 1 jam
-  workflow_dispatch:
+    - cron: '0 */6 * * *' # Berjalan otomatis setiap 6 jam sekali
+  workflow_dispatch:      # Tombol jalankan manual di web GitHub
 
 jobs:
   update:
