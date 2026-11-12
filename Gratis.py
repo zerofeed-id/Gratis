@@ -7,7 +7,7 @@ OUTPUT_DIR = "Sumber Gratis"
 SELECT_FILE = "chanel_pilihan.txt"
 CUSTOM_PLAYLIST = "ZeroTVGRATIS.m3u"
 
-# Link channel permanen Anda
+# Link channel permanen Anda di urutan teratas
 PERMANENT_CHANNEL_URL = "https://raw.githubusercontent.com/zerofeed-id/WELCOME/refs/heads/main/ZeroTV_Tele.ts"
 
 GITHUB_TOKEN = os.environ.get("GH_PAT", "")
@@ -104,6 +104,7 @@ def parse_and_split_m3u():
                 normalized_channels[norm_key].append(block_lines)
             i += 1
 
+    # 1. Simpan file M3U terpisah per channel di folder Sumber Gratis
     for channel_name, entries in channels.items():
         file_path = os.path.join(OUTPUT_DIR, f"{channel_name}.m3u")
         with open(file_path, "w", encoding="utf-8") as f:
@@ -112,28 +113,37 @@ def parse_and_split_m3u():
                 for bline in block:
                     f.write(f"{bline}\n")
 
+    # 2. Buat playlist gabungan berdasarkan chanel_pilihan.txt
     if os.path.exists(SELECT_FILE):
         with open(SELECT_FILE, "r", encoding="utf-8") as f:
             selected_names = [line.strip() for line in f if line.strip() and not line.startswith("#")]
         
-        if selected_names:
-            with open(CUSTOM_PLAYLIST, "w", encoding="utf-8") as f:
-                f.write("#EXTM3U\n")
-                
-                # --- PERBAIKAN: Pastikan format EXTINF dan link tertulis dengan benar di baris teratas ---
-                try:
-                    print(f"Mengambil data channel permanen: {PERMANENT_CHANNEL_URL}")
-                    perm_content = fetch_url_content(PERMANENT_CHANNEL_URL).strip()
-                    if perm_content:
-                        # Jika file sumber belum ada tag #EXTINF, kita buatkan format standarnya secara otomatis
-                        if not perm_content.startswith("#EXTINF"):
-                            f.write('#EXTINF:-1 tvg-name="ZeroTV" group-title="ZeroTV Official",ZeroTV Special\n')
-                        f.write(perm_content + "\n")
-                        print("Channel permanen berhasil ditambahkan di urutan teratas.")
-                except Exception as e:
-                    print(f"GAGAL mengambil channel permanen: {e}")
-                # --------------------------------------------------------------------------------------
+        with open(CUSTOM_PLAYLIST, "w", encoding="utf-8") as f:
+            f.write("#EXTM3U\n")
+            
+            # Masukkan channel permanen di baris paling atas[span_2](start_span)[span_2](end_span)
+            try:
+                print(f"Mengambil data channel permanen: {PERMANENT_CHANNEL_URL}")
+                perm_content = fetch_url_content(PERMANENT_CHANNEL_URL).strip()
+                if perm_content:
+                    if not perm_content.startswith("#EXTINF"):
+                        f.write('#EXTINF:-1 tvg-name="ZeroTV" group-title="ZeroTV Official",ZeroTV Special\n')
+                    f.write(perm_content + "\n")
+                    print("Channel permanen berhasil ditambahkan di urutan teratas.")
+            except Exception as e:
+                print(f"GAGAL mengambil channel permanen: {e}")
 
+            # Cek apakah user ingin menampilkan SEMUA channel (ketik "all" atau "all chanel" di chanel_pilihan.txt)
+            is_load_all = not selected_names or any(name.lower() in ["all", "all chanel", "semua"] for name in selected_names)
+
+            if is_load_all:
+                print("Mode aktif: Menampilkan SELURUH channel.")
+                for channel_name, entries in channels.items():
+                    for block in entries:
+                        for bline in block:
+                            f.write(f"{bline}\n")
+            else:
+                # Mode filter berdasarkan nama di chanel_pilihan.txt
                 for name in selected_names:
                     norm_target = normalize_name(name)
                     found = False
@@ -149,7 +159,8 @@ def parse_and_split_m3u():
                     
                     if not found:
                         print(f"Channel pilihan tidak ditemukan: {name}")
-            print(f"Berhasil memperbarui playlist custom: {CUSTOM_PLAYLIST}")
+                        
+        print(f"Berhasil memperbarui playlist custom: {CUSTOM_PLAYLIST}")
 
 if __name__ == "__main__":
     parse_and_split_m3u()
