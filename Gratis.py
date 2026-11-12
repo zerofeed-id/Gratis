@@ -99,7 +99,7 @@ def parse_and_split_m3u():
                 normalized_channels[norm_key].append(block_lines)
             i += 1
 
-    # --- TAMBAHAN: Hapus otomatis file .m3u di folder Sumber Gratis jika channel sudah tidak ada di sumber ---
+    # Hapus otomatis file .m3u di folder Sumber Gratis jika channel sudah tidak ada di sumber
     current_channel_files = {f"{channel_name}.m3u" for channel_name in channels.keys()}
     if os.path.exists(OUTPUT_DIR):
         for existing_file in os.listdir(OUTPUT_DIR):
@@ -111,7 +111,6 @@ def parse_and_split_m3u():
                         print(f"File channel kedaluwarsa dihapus: {existing_file}")
                     except Exception as e:
                         print(f"Gagal menghapus file {existing_file}: {e}")
-    # -----------------------------------------------------------------------------------------------------
 
     # 1. Simpan file M3U terpisah per channel di folder Sumber Gratis
     for channel_name, entries in channels.items():
@@ -122,50 +121,52 @@ def parse_and_split_m3u():
                 for bline in block:
                     f.write(f"{bline}\n")
 
-    # 2. Buat playlist gabungan berdasarkan chanel_pilihan.txt
+    # 2. Buat playlist gabungan dengan sistem Exclude (Pengecualian) berdasarkan chanel_pilihan.txt
+    excluded_patterns = []
     if os.path.exists(SELECT_FILE):
         with open(SELECT_FILE, "r", encoding="utf-8") as f:
-            selected_names = [line.strip() for line in f if line.strip() and not line.startswith("#")]
+            excluded_patterns = [line.strip() for line in f if line.strip() and not line.startswith("#")]
+    
+    with open(CUSTOM_PLAYLIST, "w", encoding="utf-8") as f:
+        f.write("#EXTM3U\n")
         
-        with open(CUSTOM_PLAYLIST, "w", encoding="utf-8") as f:
-            f.write("#EXTM3U\n")
-            
-            # --- PENYEMATAN CHANNEL PERMANEN KE BARIS TERATAS ---
-            try:
-                f.write('#EXTINF:-1 tvg-id="ZeroTV" tvg-name="ZeroTV" group-title="ZeroTV Official",ZeroTV Special\n')
-                f.write(PERMANENT_STREAM_URL + "\n")
-                print("Channel permanen berhasil disematkan di urutan teratas.")
-            except Exception as e:
-                print(f"GAGAL menyematkan channel permanen: {e}")
-            # ----------------------------------------------------
+        # --- PENYEMATAN CHANNEL PERMANEN KE BARIS TERATAS ---
+        try:
+            f.write('#EXTINF:-1 tvg-id="ZeroTV" tvg-name="ZeroTV" group-title="ZeroTV Official",ZeroTV Special\n')
+            f.write(PERMANENT_STREAM_URL + "\n")
+            print("Channel permanen berhasil disematkan di urutan teratas.")
+        except Exception as e:
+            print(f"GAGAL menyematkan channel permanen: {e}")
+        # ----------------------------------------------------
 
-            # Cek apakah user ingin menampilkan SEMUA channel atau menggunakan filter
-            is_load_all = not selected_names or any(name.lower() in ["all", "all chanel", "semua"] for name in selected_names)
-
-            if is_load_all:
-                print("Mode aktif: Menampilkan SELURUH channel.")
-                for channel_name, entries in channels.items():
-                    for block in entries:
-                        for bline in block:
-                            f.write(f"{bline}\n")
-            else:
-                for name in selected_names:
-                    norm_target = normalize_name(name)
-                    found = False
-                    
-                    for n_key, blocks in normalized_channels.items():
-                        if norm_target in n_key or n_key in norm_target:
-                            for block in blocks:
-                                for bline in block:
-                                    f.write(f"{bline}\n")
-                            print(f"Channel ditambahkan (fleksibel): {name}")
-                            found = True
+        print("Mode aktif: Menampilkan SEMUA channel kecuali yang dikecualikan.")
+        for channel_name, entries in channels.items():
+            # Cek apakah nama channel atau grupnya cocok persis dengan daftar pengecualian (case-insensitive / tanpa peduli kapital)
+            is_excluded = False
+            for pat in excluded_patterns:
+                # Periksa apakah teks pola cocok persis atau bagian dari nama (normalisasi teks)
+                if normalize_name(pat) == normalize_name(channel_name):
+                    is_excluded = True
+                    break
+                # Cek juga di dalam baris EXTINF (untuk mendeteksi kategori / group-title)
+                for block in entries:
+                    if any(pat.lower() in line.lower() for line in block if "group-title" in line):
+                        # Pastikan pencocokan kata utuh/spesifik agar "LIVE" tidak memblokir "LIVE EVENT"
+                        group_match = re.search(r'group-title="([^"]+)"', block[0], re.IGNORECASE)
+                        if group_match and normalize_name(pat) == normalize_name(group_match.group(1)):
+                            is_excluded = True
                             break
-                    
-                    if not found:
-                        print(f"Channel pilihan tidak ditemukan: {name}")
+                if is_excluded:
+                    break
+
+            if is_excluded:
+                print(f"Channel/Kategori dikecualikan (tidak dimasukkan): {channel_name}")
+            else:
+                for block in entries:
+                    for bline in block:
+                        f.write(f"{bline}\n")
                         
-        print(f"Berhasil memperbarui playlist custom: {CUSTOM_PLAYLIST}")
+    print(f"Berhasil memperbarui playlist custom: {CUSTOM_PLAYLIST}")
 
 if __name__ == "__main__":
     parse_and_split_m3u()
