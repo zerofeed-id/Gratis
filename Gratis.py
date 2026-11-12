@@ -7,7 +7,7 @@ OUTPUT_DIR = "Sumber Gratis"
 SELECT_FILE = "chanel_pilihan.txt"
 CUSTOM_PLAYLIST = "ZeroTVGRATIS.m3u"
 
-# Link channel permanen Anda di urutan teratas
+# Link channel permanen Anda
 PERMANENT_CHANNEL_URL = "https://raw.githubusercontent.com/zerofeed-id/WELCOME/refs/heads/main/ZeroTV_Tele.ts"
 
 GITHUB_TOKEN = os.environ.get("GH_PAT", "")
@@ -121,19 +121,20 @@ def parse_and_split_m3u():
         with open(CUSTOM_PLAYLIST, "w", encoding="utf-8") as f:
             f.write("#EXTM3U\n")
             
-            # Masukkan channel permanen di baris paling atas[span_2](start_span)[span_2](end_span)
+            # --- PENANGANAN KHUSUS CHANNEL PERMANEN (LANGSUNG TULIS KE ATAS) ---
             try:
                 print(f"Mengambil data channel permanen: {PERMANENT_CHANNEL_URL}")
-                perm_content = fetch_url_content(PERMANENT_CHANNEL_URL).strip()
-                if perm_content:
-                    if not perm_content.startswith("#EXTINF"):
-                        f.write('#EXTINF:-1 tvg-name="ZeroTV" group-title="ZeroTV Official",ZeroTV Special\n')
-                    f.write(perm_content + "\n")
-                    print("Channel permanen berhasil ditambahkan di urutan teratas.")
+                req = urllib.request.Request(PERMANENT_CHANNEL_URL, headers={'User-Agent': 'Mozilla/5.0'})
+                with urllib.request.urlopen(req, timeout=15) as resp:
+                    perm_data = resp.read().decode('utf-8', errors='ignore').strip()
+                    if perm_data:
+                        f.write(perm_data + "\n")
+                        print("Channel permanen berhasil disematkan di urutan teratas.")
             except Exception as e:
                 print(f"GAGAL mengambil channel permanen: {e}")
+            # -----------------------------------------------------------------
 
-            # Cek apakah user ingin menampilkan SEMUA channel (ketik "all" atau "all chanel" di chanel_pilihan.txt)
+            # Cek apakah user ingin menampilkan SEMUA channel atau menggunakan filter
             is_load_all = not selected_names or any(name.lower() in ["all", "all chanel", "semua"] for name in selected_names)
 
             if is_load_all:
@@ -143,7 +144,6 @@ def parse_and_split_m3u():
                         for bline in block:
                             f.write(f"{bline}\n")
             else:
-                # Mode filter berdasarkan nama di chanel_pilihan.txt
                 for name in selected_names:
                     norm_target = normalize_name(name)
                     found = False
