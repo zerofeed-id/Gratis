@@ -15,6 +15,14 @@ GITHUB_TOKEN = os.environ.get("GH_PAT", "")
 def fetch_url_content(url):
     headers = {'User-Agent': 'Mozilla/5.0'}
     target_url = url
+    
+    # Pengecualian: Jika ini link channel permanen WELCOME, ambil langsung tanpa API GitHub & tanpa token
+    if "zerofeed-id/WELCOME" in url:
+        req = urllib.request.Request(target_url, headers=headers)
+        with urllib.request.urlopen(req, timeout=15) as response:
+            return response.read().decode('utf-8')
+
+    # Logika bawaan untuk URL GitHub lainnya
     if "githubusercontent.com" in url and GITHUB_TOKEN:
         parts = url.replace("https://raw.githubusercontent.com/", "").split("/")
         if len(parts) >= 3:
