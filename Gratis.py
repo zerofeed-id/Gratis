@@ -7,6 +7,9 @@ OUTPUT_DIR = "Sumber Gratis"
 SELECT_FILE = "chanel_pilihan.txt"
 CUSTOM_PLAYLIST = "ZeroTVGRATIS.m3u"
 
+# Link channel permanen yang selalu di atas
+PERMANENT_CHANNEL_URL = "https://raw.githubusercontent.com/zerofeed-id/WELCOME/refs/heads/main/ZeroTV_Tele.ts"
+
 GITHUB_TOKEN = os.environ.get("GH_PAT", "")
 
 def fetch_url_content(url):
@@ -113,6 +116,17 @@ def parse_and_split_m3u():
         if selected_names:
             with open(CUSTOM_PLAYLIST, "w", encoding="utf-8") as f:
                 f.write("#EXTM3U\n")
+                
+                # --- TAMBAHAN: Masukkan channel permanen di baris paling atas ---
+                try:
+                    print(f"Mengambil data channel permanen: {PERMANENT_CHANNEL_URL}")
+                    perm_content = fetch_url_content(PERMANENT_CHANNEL_URL)
+                    f.write(perm_content.strip() + "\n")
+                    print("Channel permanen berhasil ditambahkan di urutan teratas.")
+                except Exception as e:
+                    print(f"GAGAL mengambil channel permanen: {e}")
+                # -------------------------------------------------------------
+
                 for name in selected_names:
                     norm_target = normalize_name(name)
                     found = False
