@@ -7,7 +7,7 @@ OUTPUT_DIR = "Sumber Gratis"
 SELECT_FILE = "chanel_pilihan.txt"
 CUSTOM_PLAYLIST = "ZeroTVGRATIS.m3u"
 
-# Link channel permanen yang selalu di atas
+# Link channel permanen Anda
 PERMANENT_CHANNEL_URL = "https://raw.githubusercontent.com/zerofeed-id/WELCOME/refs/heads/main/ZeroTV_Tele.ts"
 
 GITHUB_TOKEN = os.environ.get("GH_PAT", "")
@@ -16,13 +16,11 @@ def fetch_url_content(url):
     headers = {'User-Agent': 'Mozilla/5.0'}
     target_url = url
     
-    # Pengecualian khusus channel permanen WELCOME (aman dari error biner/utf-8)
     if "zerofeed-id/WELCOME" in url:
         req = urllib.request.Request(target_url, headers=headers)
         with urllib.request.urlopen(req, timeout=15) as response:
             return response.read().decode('utf-8', errors='ignore')
 
-    # Logika bawaan untuk URL GitHub lainnya
     if "githubusercontent.com" in url and GITHUB_TOKEN:
         parts = url.replace("https://raw.githubusercontent.com/", "").split("/")
         if len(parts) >= 3:
@@ -100,14 +98,12 @@ def parse_and_split_m3u():
                     channels[safe_name] = []
                 channels[safe_name].append(block_lines)
                 
-                # Buat kamus normalisasi untuk pencocokan fleksibel
                 norm_key = normalize_name(safe_name)
                 if norm_key not in normalized_channels:
                     normalized_channels[norm_key] = []
                 normalized_channels[norm_key].append(block_lines)
             i += 1
 
-    # 1. Simpan file M3U terpisah per channel di folder Sumber Gratis
     for channel_name, entries in channels.items():
         file_path = os.path.join(OUTPUT_DIR, f"{channel_name}.m3u")
         with open(file_path, "w", encoding="utf-8") as f:
@@ -116,7 +112,6 @@ def parse_and_split_m3u():
                 for bline in block:
                     f.write(f"{bline}\n")
 
-    # 2. Buat playlist gabungan berdasarkan chanel_pilihan.txt secara fleksibel
     if os.path.exists(SELECT_FILE):
         with open(SELECT_FILE, "r", encoding="utf-8") as f:
             selected_names = [line.strip() for line in f if line.strip() and not line.startswith("#")]
@@ -125,21 +120,24 @@ def parse_and_split_m3u():
             with open(CUSTOM_PLAYLIST, "w", encoding="utf-8") as f:
                 f.write("#EXTM3U\n")
                 
-                # --- TAMBAHAN: Masukkan channel permanen di baris paling atas ---
+                # --- PERBAIKAN: Pastikan format EXTINF dan link tertulis dengan benar di baris teratas ---
                 try:
                     print(f"Mengambil data channel permanen: {PERMANENT_CHANNEL_URL}")
-                    perm_content = fetch_url_content(PERMANENT_CHANNEL_URL)
-                    f.write(perm_content.strip() + "\n")
-                    print("Channel permanen berhasil ditambahkan di urutan teratas.")
+                    perm_content = fetch_url_content(PERMANENT_CHANNEL_URL).strip()
+                    if perm_content:
+                        # Jika file sumber belum ada tag #EXTINF, kita buatkan format standarnya secara otomatis
+                        if not perm_content.startswith("#EXTINF"):
+                            f.write('#EXTINF:-1 tvg-name="ZeroTV" group-title="ZeroTV Official",ZeroTV Special\n')
+                        f.write(perm_content + "\n")
+                        print("Channel permanen berhasil ditambahkan di urutan teratas.")
                 except Exception as e:
                     print(f"GAGAL mengambil channel permanen: {e}")
-                # -------------------------------------------------------------
+                # --------------------------------------------------------------------------------------
 
                 for name in selected_names:
                     norm_target = normalize_name(name)
                     found = False
                     
-                    # Cocokkan dengan kunci yang dinormalisasi
                     for n_key, blocks in normalized_channels.items():
                         if norm_target in n_key or n_key in norm_target:
                             for block in blocks:
