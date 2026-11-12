@@ -1,13 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="ZeroTV" tvg-name="ZeroTV" group-title="ZeroTV Official",ZeroTV Special
 https://raw.githubusercontent.com/zerofeed-id/WELCOME/refs/heads/main/ZeroTV_Tele.ts
-#EXTINF:-1 tvg-id="" tvg-logo="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyMTI3YWxxdDZpYzNiMHAyNXh1MWl1enBxeDl3bzB0bmRsem42OHYweCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5xaOcLGwJiU6VzF7U3K/giphy.gif" group-title="INFO!!",WAJIB PAKAI OTT NAVIGATOR/M3U IPTV/MPD PLAYER!!
-#EXTINF:-1 tvg-id="info.channel" tvg-name="INFO CHANNEL" tvg-type="live" radio="false" group-title="LIVE TV", INFO CHANNEL
-https://kokotv.my.id/Videointro.php
-#EXTINF:-1 tvg-id="" tvg-logo="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyMTI3YWxxdDZpYzNiMHAyNXh1MWl1enBxeDl3bzB0bmRsem42OHYweCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5xaOcLGwJiU6VzF7U3K/giphy.gif" group-title="INFO!!",WA : 085168734121
-https://kokotv.my.id/videokoko.mp4
-#EXTINF:-1 tvg-id="" tvg-logo="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyMTI3YWxxdDZpYzNiMHAyNXh1MWl1enBxeDl3bzB0bmRsem42OHYweCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5xaOcLGwJiU6VzF7U3K/giphy.gif" group-title="MAU LANGGANAN",INFO HARGA PAKET
-https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
 #EXTINF:-1 group-title="LIVE 12-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC5Xh6agj2H4ZTI8TRTWIhvJxBP86n3dxZBHkak0iLX9viFpndpmv_F2Q&s=10",20.00 |YORDANIA U20 VS  INDONESIA U20
 https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
 #EXTINF:-1 group-title="LIVE 12-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSytO7gHd74OR6iSZyy6jRCLN-gCq9jsMQrWBspAEOdZaJCFVdIlSgHaEu&s=10",22.00 |GHANA VS SOMALIA
