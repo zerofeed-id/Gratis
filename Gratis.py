@@ -16,11 +16,11 @@ def fetch_url_content(url):
     headers = {'User-Agent': 'Mozilla/5.0'}
     target_url = url
     
-    # Pengecualian: Jika ini link channel permanen WELCOME, ambil langsung tanpa API GitHub & tanpa token
+    # Pengecualian khusus channel permanen WELCOME (aman dari error biner/utf-8)
     if "zerofeed-id/WELCOME" in url:
         req = urllib.request.Request(target_url, headers=headers)
         with urllib.request.urlopen(req, timeout=15) as response:
-            return response.read().decode('utf-8')
+            return response.read().decode('utf-8', errors='ignore')
 
     # Logika bawaan untuk URL GitHub lainnya
     if "githubusercontent.com" in url and GITHUB_TOKEN:
@@ -37,7 +37,7 @@ def fetch_url_content(url):
 
     req = urllib.request.Request(target_url, headers=headers)
     with urllib.request.urlopen(req, timeout=15) as response:
-        return response.read().decode('utf-8')
+        return response.read().decode('utf-8', errors='ignore')
 
 def normalize_name(name):
     """Fungsi untuk membersihkan teks agar pencocokan lebih fleksibel (mengabaikan spasi, simbol, dan huruf besar/kecil)"""
