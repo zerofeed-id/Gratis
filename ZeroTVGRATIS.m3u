@@ -1,9 +1,15 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="ZeroTV" tvg-name="ZeroTV" group-title="ZeroTV Official",ZeroTV Special
 https://raw.githubusercontent.com/zerofeed-id/WELCOME/refs/heads/main/ZeroTV_Tele.ts
-#EXTINF:-1 group-title="LIVE 12-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC5Xh6agj2H4ZTI8TRTWIhvJxBP86n3dxZBHkak0iLX9viFpndpmv_F2Q&s=10",20.00 |YORDANIA U20 VS  INDONESIA U20
+#EXTINF:-1 group-title="LIVE 13-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC5Xh6agj2H4ZTI8TRTWIhvJxBP86n3dxZBHkak0iLX9viFpndpmv_F2Q&s=10",19.00 |SINGAPORE VS PARAGUAY
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=60dc08aae52f4c0b806a8e43f24a12c8:30d5b579966d822b215ec51a91d8a271
+https://ls-mp02stg.eo-edgefunctions7.com/out/v1/3170252e3fb0453085f2f4b0f8401a6b/manifest.mpd
+#EXTINF:-1 group-title="LIVE 13-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC5Xh6agj2H4ZTI8TRTWIhvJxBP86n3dxZBHkak0iLX9viFpndpmv_F2Q&s=10",21.30 |SAUDI ARABIA VS SOUTH KOREA
 https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
-#EXTINF:-1 group-title="LIVE 12-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSytO7gHd74OR6iSZyy6jRCLN-gCq9jsMQrWBspAEOdZaJCFVdIlSgHaEu&s=10",22.00 |GHANA VS SOMALIA
+#EXTINF:-1 group-title="LIVE 13-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC5Xh6agj2H4ZTI8TRTWIhvJxBP86n3dxZBHkak0iLX9viFpndpmv_F2Q&s=10",21.45 |QATAR VS AUSTRALIA
+https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
+#EXTINF:-1 group-title="LIVE 13-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSytO7gHd74OR6iSZyy6jRCLN-gCq9jsMQrWBspAEOdZaJCFVdIlSgHaEu&s=10",23.00 |NIGERIA VS TANZANIA
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
@@ -12,20 +18,7 @@ https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
 #KODIPROP:inputstream.adaptive.license_key=https://bandeltv.xyz/sc1980/2025/Kvision/drm.php?id=124
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 https://bandeltv.xyz/sc1980/2025/Kvision/mpd.php/.mpd?id=124
-#EXTINF:-1 group-title="LIVE 12-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSytO7gHd74OR6iSZyy6jRCLN-gCq9jsMQrWBspAEOdZaJCFVdIlSgHaEu&s=10",23.00 |GUINEA VS ERITREA
-https://live2.jorvakstreamcache.com/live/channel24.m3u8
-#EXTINF:-1 group-title="LIVE 12-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSytO7gHd74OR6iSZyy6jRCLN-gCq9jsMQrWBspAEOdZaJCFVdIlSgHaEu&s=10",23.00 |RD CONGO VS SIERA LEONE
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#EXTVLCOPT:http-origin=https://www.visionplus.id
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://bandeltv.xyz/sc1980/2025/Kvision/drm.php?id=122
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-https://bandeltv.xyz/sc1980/2025/Kvision/mpd.php/.mpd?id=122
-#EXTINF:-1 group-title="LIVE 12-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSytO7gHd74OR6iSZyy6jRCLN-gCq9jsMQrWBspAEOdZaJCFVdIlSgHaEu&s=10",23.00 |MADAGASCAR VS GUINEA BIS
-https://live2.jorvakstreamcache.com/live/channel19.m3u8
-#EXTINF:-1 group-title="LIVE 12-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSytO7gHd74OR6iSZyy6jRCLN-gCq9jsMQrWBspAEOdZaJCFVdIlSgHaEu&s=10",23.00 |GUINEA KHATULISTIWA VS ZIMBABWE
+#EXTINF:-1 group-title="LIVE 13-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSytO7gHd74OR6iSZyy6jRCLN-gCq9jsMQrWBspAEOdZaJCFVdIlSgHaEu&s=10",23.00 |SOUTH AFRIKA VS KENYA
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
@@ -34,14 +27,6 @@ https://live2.jorvakstreamcache.com/live/channel19.m3u8
 #KODIPROP:inputstream.adaptive.license_key=https://bandeltv.xyz/sc1980/2025/Kvision/drm.php?id=123
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 https://bandeltv.xyz/sc1980/2025/Kvision/mpd.php/.mpd?id=123
-#EXTINF:-1 group-title="LIVE 13-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSytO7gHd74OR6iSZyy6jRCLN-gCq9jsMQrWBspAEOdZaJCFVdIlSgHaEu&s=10",02.00 |SENEGAL VS SUDAN
-https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
-#EXTINF:-1 group-title="LIVE 13-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSytO7gHd74OR6iSZyy6jRCLN-gCq9jsMQrWBspAEOdZaJCFVdIlSgHaEu&s=10",02.00 |BENIN VS REPUBLIK AFRICA TENGAH
-https://live2.jorvakstreamcache.com/live/channel23.m3u8
-#EXTINF:-1 group-title="LIVE 13-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSytO7gHd74OR6iSZyy6jRCLN-gCq9jsMQrWBspAEOdZaJCFVdIlSgHaEu&s=10",02.00 |CAMEROON VS NAMIBIA
-https://live2.jorvakstreamcache.com/live/channel7.m3u8
-#EXTINF:-1 group-title="LIVE 13-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSytO7gHd74OR6iSZyy6jRCLN-gCq9jsMQrWBspAEOdZaJCFVdIlSgHaEu&s=10",02.00 |PANTAI GADING VS GAMBIA
-https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
 #EXTINF:-1 tvg-logo="https://go4.pw/FRANCE/canalpre.png" group-title="LIVE EVENT",CANAL+ PREMIER LEAGUE FHD
 https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/203876.ts
 #EXTINF:-1 tvg-logo="https://go4.pw/FRANCE/canalpre.png" group-title="LIVE EVENT",CANAL+ PREMIER LEAGUE HEVC

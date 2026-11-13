@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 group-title="LIVE 12-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSytO7gHd74OR6iSZyy6jRCLN-gCq9jsMQrWBspAEOdZaJCFVdIlSgHaEu&s=10",23.00 |GUINEA KHATULISTIWA VS ZIMBABWE
+#EXTINF:-1 group-title="LIVE 13-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSytO7gHd74OR6iSZyy6jRCLN-gCq9jsMQrWBspAEOdZaJCFVdIlSgHaEu&s=10",23.00 |SOUTH AFRIKA VS KENYA
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
