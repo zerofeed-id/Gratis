@@ -6,9 +6,9 @@ https://raw.githubusercontent.com/zerofeed-id/WELCOME/refs/heads/main/ZeroTV_Tel
 #KODIPROP:inputstream.adaptive.license_key=60dc08aae52f4c0b806a8e43f24a12c8:30d5b579966d822b215ec51a91d8a271
 https://ls-mp02stg.eo-edgefunctions7.com/out/v1/3170252e3fb0453085f2f4b0f8401a6b/manifest.mpd
 #EXTINF:-1 group-title="LIVE 13-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC5Xh6agj2H4ZTI8TRTWIhvJxBP86n3dxZBHkak0iLX9viFpndpmv_F2Q&s=10",21.30 |SAUDI ARABIA VS SOUTH KOREA
-https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
+https://live2.jorvakstreamcache.com/live/channel7.m3u8
 #EXTINF:-1 group-title="LIVE 13-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC5Xh6agj2H4ZTI8TRTWIhvJxBP86n3dxZBHkak0iLX9viFpndpmv_F2Q&s=10",21.45 |QATAR VS AUSTRALIA
-https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
+https://live2.jorvakstreamcache.com/live/channel24.m3u8
 #EXTINF:-1 group-title="LIVE 13-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSytO7gHd74OR6iSZyy6jRCLN-gCq9jsMQrWBspAEOdZaJCFVdIlSgHaEu&s=10",23.00 |NIGERIA VS TANZANIA
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
