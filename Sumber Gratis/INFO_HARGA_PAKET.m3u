@@ -1,3 +1,13 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="" tvg-logo="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyMTI3YWxxdDZpYzNiMHAyNXh1MWl1enBxeDl3bzB0bmRsem42OHYweCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5xaOcLGwJiU6VzF7U3K/giphy.gif" group-title="MAU LANGGANAN",INFO HARGA PAKET
 https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
+##EXTINF:-1 group-title="LIVE 14-11-26" tvg-logo="https://assets-a1.kompasiana.com/items/album/2026/10/17/untitled-6ad2cbf9ed64155d577ca96e.jpg?t=o&v=410", INDONESIA WOMENS LEAGUE
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1794637536/ei/gKr3aq_NHLm2z7sP-7e42QU/ip/114.125.183.76/id/QPFkbjEqjpg.1/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr5---sn-uxa3vhnxa-02b6.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/ctier/SPL/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFAFb97OIA11Piba1DN2Ld5AUa68JEjoxX9VTXPw_hYMBL0C6qZJ9jc6G-5kkHlgxp3Kk2d5A-pTMto/spc/nfZ8ZmzDWwnaSQW_CnvnH6ZqU3IeujFOeGOgS0YqN5c69xHOx852AXZjkcYk/vprv/1/reg/0/playlist_type/DVR/initcwndbps/690500/met/1794615937,/mh/sZ/mm/44/mn/sn-uxa3vhnxa-02b6/ms/lva/mv/m/mvi/5/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565116/mt/1794615431/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,ctier,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAI9SLxNMSZZrG8mIMd3lR3rSh_fwQO4neFqMB9u9Q9HXAiEAp-GRpdAVi9GaO55yIZKHKSVg24jIKAy1Ca_GItE9chk%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAOmSDp25OhS9tw6U2dK1Iwp8MEyK1tlyhffv8KSqPV5_AiB9iExTqnCs-SXow9TtS0nhf6t9j6GCXdJI679it-zOFQ%3D%3D/playlist/index.m3u8
+##EXTINF:-1 group-title="LIVE 14-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC5Xh6agj2H4ZTI8TRTWIhvJxBP86n3dxZBHkak0iLX9viFpndpmv_F2Q&s=10",06.00 ARGENTINA VS URUGUAY
+https://live2.jorvakstreamcache.com/live/channel4.m3u8
+##EXTINF:-1 group-title="LIVE 14-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC5Xh6agj2H4ZTI8TRTWIhvJxBP86n3dxZBHkak0iLX9viFpndpmv_F2Q&s=10",07.00 COLOMBIA VS CHILE
+https://playback.livetl002.com/live/69ef10b47146e04fbe6d4363.m3u8
+##EXTINF:-1 group-title="LIVE 14-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC5Xh6agj2H4ZTI8TRTWIhvJxBP86n3dxZBHkak0iLX9viFpndpmv_F2Q&s=10",07.00 EQUADOR VS COSTA RICA
+https://playback.livetl002.com/live/69cf6331585c5992182f4160.m3u8
+##EXTINF:-1 group-title="LIVE 14-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC5Xh6agj2H4ZTI8TRTWIhvJxBP86n3dxZBHkak0iLX9viFpndpmv_F2Q&s=10",08.00 PERU VS BOLIVIA
+https://live2.jorvakstreamcache.com/live/channel7.m3u8
