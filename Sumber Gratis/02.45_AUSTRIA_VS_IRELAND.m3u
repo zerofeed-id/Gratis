@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 group-title="LIVE 15-11-26" tvg-logo="https://media.istockphoto.com/id/648561668/photo/austria-vs-ireland-flags-on-soccer-field.jpg?s=170667a&w=0&k=20&c=UdUB7Hf3NbKHZnDZuXgfywaQNLLPVOceEPLoqfLtUhI=",02.45 AUSTRIA VS IRELAND
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
+https://rplus.inisemar.my.id/gtv.m3u8

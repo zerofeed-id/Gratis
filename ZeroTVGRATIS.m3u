@@ -1,25 +1,47 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="ZeroTV" tvg-name="ZeroTV" group-title="ZeroTV Official",ZeroTV Special
 https://raw.githubusercontent.com/zerofeed-id/WELCOME/refs/heads/main/ZeroTV_Tele.ts
-#EXTINF:-1 group-title="LIVE 14-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC5Xh6agj2H4ZTI8TRTWIhvJxBP86n3dxZBHkak0iLX9viFpndpmv_F2Q&s=10",09.00 GUATEMALA VS CANADA
-https://playback.livetl002.com/live/69be75e0a0a45974afb67776.m3u8
-#EXTINF:-1 group-title="LIVE 14-11-26" tvg-logo="https://cdn1-production-images-kly.akamaized.net/o48-gY_N0GkHZK4rjOBwy5ULBck=/800x450/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/9397256/original/071862500_1794567884-Indonesia_vs_Cambodia_U-17_1.jpg",15.30 INDONESIA U17 VS CAMBODIA U17
-https://live2.jorvakstreamcache.com/live/channel4.m3u8
-#EXTINF:-1 group-title="LIVE 14-11-26" tvg-logo="https://thumbor.prod.vidiocdn.com/h72eTk5IyFAcUp_9K5AQDMYP7dM=/960x576/filters:quality(70)/vidio-media-production/uploads/livestreaming/schedule/mobile_headline_image/5436080/myanmar-vs-philippines-afc-u17-asian-cup-qualifiers-263393.jpg",15.30 MYANMAR U17 VS FILIPINA U17
-https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
-#EXTINF:-1 group-title="LIVE 14-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC5Xh6agj2H4ZTI8TRTWIhvJxBP86n3dxZBHkak0iLX9viFpndpmv_F2Q&s=10",17.15 JAPAN VS BRAZIL
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=60dc08aae52f4c0b806a8e43f24a12c8:30d5b579966d822b215ec51a91d8a271
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-https://ls-mp02stg.eo-edgefunctions7.com/out/v1/3170252e3fb0453085f2f4b0f8401a6b/manifest.mpd
-#EXTINF:-1 group-title="LIVE 14-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC5Xh6agj2H4ZTI8TRTWIhvJxBP86n3dxZBHkak0iLX9viFpndpmv_F2Q&s=10",19.00 CHINA VS MALAYSIA
-https://shorter.me/SUKAN
-#EXTINF:-1 group-title="LIVE 14-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC5Xh6agj2H4ZTI8TRTWIhvJxBP86n3dxZBHkak0iLX9viFpndpmv_F2Q&s=10",19.30 THAILAND VS BRUNEI
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=4b2bff3e598043cfaf949305e3d153fa:545df84ff4c54af6b5385516e0f65956
-https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/32/32.mpd
 #EXTINF:-1 group-title="LIVE 14-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC5Xh6agj2H4ZTI8TRTWIhvJxBP86n3dxZBHkak0iLX9viFpndpmv_F2Q&s=10",22.00 PALESTINA VS IRAN
-https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1794692796/ei/XIL4aqviE9WO8uMP4qfX-AU/ip/154.93.37.12/id/K6-lp1Dlnl8.1/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr3---sn-4g5ednly.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFAFb-dxc5HYr3gCzy5bFiXthkzF76SxtwSGpfCI1CwEYu6XhFRxNX9tjmCUOAPd6KC4O-YxkFUY65k/spc/nfZ8Zi4PF1PFPQtwGymsLMej1OgujDWXFirrqcvE7zxgpOcsJ4UHexBRaXtW/vprv/1/reg/0/playlist_type/DVR/met/1794671199,/mh/ji/mm/44/mn/sn-4g5ednly/ms/lva/mv/u/mvi/3/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565116/mt/1794670327/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAIyi3o1n9huH00pxn7iON_XrRudsAwTM1yxPU8aP8NybAiEAnXGdgSMbN-9U5gJvFOJ4hDnlafW_4yEQIWUGD6h3ng8%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAMKjAG1Qm_RpLZfQiLaCRFEiq5ng8bN1K8z2qKzIMzJpAiEAu8AOAObxPfOZBGcV87WfgDMAS5idn04g7CLrD32NvyI%3D/playlist/index.m3u8
+#EXTINF:-1 group-title="LIVE 14-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC5Xh6agj2H4ZTI8TRTWIhvJxBP86n3dxZBHkak0iLX9viFpndpmv_F2Q&s=10",22.00 PALESTINA VS IRAN
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1794692796/ei/XIL4aqviE9WO8uMP4qfX-AU/ip/154.93.37.12/id/K6-lp1Dlnl8.1/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr3---sn-4g5ednly.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFAFb-dxc5HYr3gCzy5bFiXthkzF76SxtwSGpfCI1CwEYu6XhFRxNX9tjmCUOAPd6KC4O-YxkFUY65k/spc/nfZ8Zi4PF1PFPQtwGymsLMej1OgujDWXFirrqcvE7zxgpOcsJ4UHexBRaXtW/vprv/1/reg/0/playlist_type/DVR/met/1794671199,/mh/ji/mm/44/mn/sn-4g5ednly/ms/lva/mv/u/mvi/3/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565116/mt/1794670327/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAIyi3o1n9huH00pxn7iON_XrRudsAwTM1yxPU8aP8NybAiEAnXGdgSMbN-9U5gJvFOJ4hDnlafW_4yEQIWUGD6h3ng8%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAMKjAG1Qm_RpLZfQiLaCRFEiq5ng8bN1K8z2qKzIMzJpAiEAu8AOAObxPfOZBGcV87WfgDMAS5idn04g7CLrD32NvyI%3D/playlist/index.m3u8
+#EXTINF:-1 group-title="LIVE 15-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZdXWwd__LkCuFG-M0zQI2FXhQU0q3oRrQ0cbpiOz6Ab5NOr0QDVkZ4Vs&s=10",00.00 GEORGIA VS HUNGARIA
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://a83aivottlinear-a.akamaihd.net/OTTB/syd-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
+#EXTINF:-1 group-title="LIVE 15-11-26" tvg-logo="https://i.ytimg.com/vi/0CS3xA605Jc/maxresdefault.jpg",00.00 NORWAY VS WALES
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
+#EXTINF:-1 group-title="LIVE 15-11-26" tvg-logo="https://i.ytimg.com/vi/JT_Y83W1weM/maxresdefault.jpg",02.00 ALGERIA VS TOGO
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
+https://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd
+#EXTINF:-1 group-title="LIVE 15-11-26" tvg-logo="https://kiblatriau.com/assets/berita/original/38377521541-denmark_vs_portugal.jpg",02.45 PORTUGAL VS DENMARK
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
+#EXTINF:-1 group-title="LIVE 15-11-26" tvg-logo="https://media.istockphoto.com/id/648561668/photo/austria-vs-ireland-flags-on-soccer-field.jpg?s=170667a&w=0&k=20&c=UdUB7Hf3NbKHZnDZuXgfywaQNLLPVOceEPLoqfLtUhI=",02.45 AUSTRIA VS IRELAND
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
+https://rplus.inisemar.my.id/gtv.m3u8
+#EXTINF:-1 group-title="LIVE 15-11-26" tvg-logo="https://i.ytimg.com/vi/9Tri38sB-FE/maxresdefault.jpg",02.45 ROMANIA VSA POLANDIA
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1"
+#EXTVLCOPT:http-referrer=https://aesport.tv/
+https://liveua.cdnfly.click/pt_elevensport3/index.m3u8
+#EXTINF:-1 group-title="LIVE 15-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnfozV4IyZ1p99Dr_0gB0PMEJcgOHlB2MMgBz1Th0CO30NUQM-rPQjnKI&s=10",02.45 NOTHEM VS UKRAINA
+http://31.43.191.125:8080/vip9781785523997/cf645f65dca1/157426
 #EXTINF:-1 tvg-logo="https://go4.pw/FRANCE/canalpre.png" group-title="LIVE EVENT",CANAL+ PREMIER LEAGUE FHD
 https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/203876.ts
 #EXTINF:-1 tvg-logo="https://go4.pw/FRANCE/canalpre.png" group-title="LIVE EVENT",CANAL+ PREMIER LEAGUE HEVC

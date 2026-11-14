@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 group-title="LIVE 15-11-26" tvg-logo="https://i.ytimg.com/vi/9Tri38sB-FE/maxresdefault.jpg",02.45 ROMANIA VSA POLANDIA
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1"
+#EXTVLCOPT:http-referrer=https://aesport.tv/
+https://liveua.cdnfly.click/pt_elevensport3/index.m3u8

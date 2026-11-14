@@ -1,6 +1,0 @@
-#EXTM3U
-#EXTINF:-1 group-title="LIVE 14-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC5Xh6agj2H4ZTI8TRTWIhvJxBP86n3dxZBHkak0iLX9viFpndpmv_F2Q&s=10",17.15 JAPAN VS BRAZIL
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=60dc08aae52f4c0b806a8e43f24a12c8:30d5b579966d822b215ec51a91d8a271
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-https://ls-mp02stg.eo-edgefunctions7.com/out/v1/3170252e3fb0453085f2f4b0f8401a6b/manifest.mpd
