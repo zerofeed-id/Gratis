@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 group-title="LIVE 15-11-26" tvg-logo="https://groundhopperguides.com/wp-content/uploads/2022/03/UEFA-Nations-League.jpeg",21.00 CYPRUS VS MONTENEGRO
+#EXTINF:-1 group-title="LIVE 16-11-26" tvg-logo="https://groundhopperguides.com/wp-content/uploads/2022/03/UEFA-Nations-League.jpeg",21.00 CYPRUS VS MONTENEGRO
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
