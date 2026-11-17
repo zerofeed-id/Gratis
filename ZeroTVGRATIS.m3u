@@ -1,22 +1,59 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="ZeroTV" tvg-name="ZeroTV" group-title="ZeroTV Official",ZeroTV Special
 https://raw.githubusercontent.com/zerofeed-id/WELCOME/refs/heads/main/ZeroTV_Tele.ts
-#EXTINF:-1 group-title="LIVE 15-11-26" tvg-logo="https://cdn1-production-images-kly.akamaized.net/Z7G5IEq7UKnhWFnWeI-pRcKNLrA=/500x281/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/5368954/original/020782300_1759402352-WhatsApp_Image_2025-10-02_at_17.42.54.jpeg",19.00 UG VS BLU
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1794850759/ei/Z-v6aonKGaeAjuMPuZ2NwAw/ip/182.1.184.230/id/2b89oShTL3k.3/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr1---sn-uxa3vhnxa-02bz.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AZFAFb_UPiFtE4szTPOoovYHypXzM8kiOsVNjl2DQQOomGztCcvwWet-_Q8v1ytU5gtQy54u0m_xW3Wj/spc/nfZ8ZjVQ9axqQBvlPVO6UvQKAcfjdN-3HTZAwAugmt_FWxmv6E7wmS7PtzCc/vprv/1/reg/0/playlist_type/DVR/initcwndbps/447500/met/1794829160,/mh/DG/mip/182.1.165.122/mm/44/mn/sn-uxa3vhnxa-02bz/ms/lva/mv/m/mvi/1/pcm2cms/yes/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565115,52227521/mt/1794828784/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgWD2Tpt4yFrcquOf5Mspn44JgBapNz03GESVM5L4L-1oCIBSkMUkS8O5XopjE7oTVwUXY6GbOoxuh6NWCSBaZpX-M/lsparams/hls_chunk_host,initcwndbps,met,mh,mip,mm,mn,ms,mv,mvi,pcm2cms,pl,rms/lsig/APaTxxMwRQIgVQx5b9Q_3SI3pAmLbyiBNc95hJ-ZIrrTgL3wwmJXxasCIQDj7E4NZN8qkB7vjFZGn5ZxatoPqC02aR-kK79W2Bwu2w%3D%3D/playlist/index.m3u8
-#EXTINF:-1 group-title="LIVE 16-11-26" tvg-logo="https://kokotv.my.id/Foto/caf.jpeg",20.00 NAMIBIA VS CAMEROON
-https://live2.jorvakstreamcache.com/live/channel22.m3u8
-#EXTINF:-1 group-title="LIVE 16-11-26" tvg-logo="https://kokotv.my.id/Foto/caf.jpeg",20.00 SUDAN VS SENEGAL
-https://live2.jorvakstreamcache.com/live/channel17.m3u8
-#EXTINF:-1 group-title="LIVE 16-11-26" tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg",20.00 INDONESIA U20 VS USA U19
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1794862131/ei/0xf7avLyAerAssUPlp-HuAE/ip/182.1.184.254/id/0ZCyG8yq_Gc.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-uxa3vhnxa-02bd.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AZFAFb9n6uk_Qdhm6JbgI_zG-WRrSy9ohkLF7BcnY0eajVoAgZIJkHT8eho0KK0IQXWhACceHFzwXCQF/spc/nfZ8Zk49c5t5T0coQAQDSahy5LPci5G71JBKydPsPAndNMB0H4EAyJGy6hP-/vprv/1/reg/0/playlist_type/DVR/initcwndbps/704750/met/1794840531,/mh/PE/mip/114.125.187.18/mm/44/mn/sn-uxa3vhnxa-02bd/ms/lva/mv/m/mvi/2/pcm2cms/yes/pl/24/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565116/mt/1794840089/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgQDDgr3M5oRqqr2CiuypZM4Rucf0VXdLvdr9GL-ut66ICIQCS2q99Znw3Kg9F8dsjckk57e2bTeniY-_jO3lO_HR3gg%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mip,mm,mn,ms,mv,mvi,pcm2cms,pl,rms/lsig/APaTxxMwRgIhAMpidqFObwbWJ2Zr4F_vWDpOFt85YR41Gr11iFFXT3qLAiEAlrRMNou6XGRa2mU_C_wJMkRXiDSYA6ruQvnfu06SXL0%3D/playlist/index.m3u8
-#EXTINF:-1 group-title="LIVE 16-11-26" tvg-logo="https://kokotv.my.id/Foto/unations.jpeg",22.00 FAORE ISLAND VS MOLDOVA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://tg0t1gr4ugmtwgczdrpbufa5demmcpf5gkce.100ycdn.com/live1.quickscoreboardz.com/live/channel2/playlist.m3u8?wsSecret=a4f2a6c84776d375f71346c1081be594&wsABSTime=1794142664&wsSession=0a386f7d8ef9275a55f7520a-179409947113649&wsIPSercert=e7abdd94846cd7e8c69ab139cdc84683&wsBindIP=2&wsserid=1168311488314749339
-#EXTINF:-1 group-title="LIVE 16-11-26" tvg-logo="https://kokotv.my.id/Foto/unations.jpeg",22.00 KAZAKSTAN VS SLOVAKIA
-https://live2.jorvakstreamcache.com/live/channel24.m3u8
-#EXTINF:-1 group-title="LIVE 16-11-26" tvg-logo="https://kokotv.my.id/Foto/caf.jpeg",22.00 SOMALIA VS GHANA
-https://live2.jorvakstreamcache.com/live/channel14.m3u8
+#EXTINF:-1 group-title="LIVE 17-11-26" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8N4Q3vMN2qR_SVHGQ5UFgUGejY85yvti-farzJmc1Meufoc4CldckKMM&s=10",14.00 KAB CIAMIS VS KAB BANDUNG
+https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
+#EXTINF:-1 group-title="LIVE 17-11-26" tvg-logo="https://cdn0-production-images-kly.akamaized.net/5nfRlHp-VTuizV7e2jml-74sIfM=/1280x720/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/5457834/original/076905400_1767059927-InShot_20251230_085300398.jpg",INDONESIA VS MYANMAR
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1794913706/ei/SuH7av3cL9uC3LUPgvG8uAc/ip/114.125.181.97/id/9iQwU4kd37I.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-uxa3vhnxa-02bd.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/gcr/id/ss/1/ssa/1/bui/AZFAFb_APiwUAgl-mGdJPL-JYPmXl-ob3SwG0PdpKqFWgyKHllA3d6Oz5H-GyQdQKGVWgANGd2t4bt3Q/spc/nfZ8Zg7tXX_mjwGbdP2J7c7dD4i6_CKFm3l81a23PXN3gTrx2olhGsvPVfVa/vprv/1/reg/0/playlist_type/DVR/initcwndbps/556125/met/1794892107,/mh/8P/mip/182.1.164.121/mm/44/mn/sn-uxa3vhnxa-02bd/ms/lva/mv/m/mvi/1/pl/22/rms/lva,lva/dover/11/pacing/0/epbp/1/keepalive/yes/fexp/51565116/mt/1794891650/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,gcr,ss,ssa,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhANarcH7hUTkyVofJPQGYjgL2d5w7bm-1prTr1BsI5ThbAiEAgrI6Uxzu1qdY8buroEzejuatp4J0y7gP40cEngLi1sE%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mip,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhANqvnbgwiOVz2Jnfak-VnU59xlJXoSABk_TPWFesyG3NAiBrtFW02w3qu6YmwRe0Hj_GL_J4X5i-N3oHmbVsxePHpg%3D%3D/playlist/index.m3u8
+#EXTINF:-1 group-title="LIVE 17-11-26" tvg-logo="https://kokotv.my.id/Foto/kualifikasi-u17.jpeg",15.30 AFGHANISTAN U17 VS INDONESIA U17
+https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
+#EXTINF:-1 group-title="LIVE 17-11-26" tvg-logo="https://kokotv.my.id/Foto/kualifikasi-u17.jpeg",15.30 MYANMAR U17 VS CAMBODIA U17
+https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
+#EXTINF:-1 group-title="LIVE 17-11-26" tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg",17.00 SINGAPORE VS BRAZIL
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=60dc08aae52f4c0b806a8e43f24a12c8:30d5b579966d822b215ec51a91d8a271
+https://ls-mp02stg.eo-edgefunctions7.com/out/v1/3170252e3fb0453085f2f4b0f8401a6b/manifest.mpd
+#EXTINF:-1 group-title="LIVE 17-11-26" tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg",19.00 CHINA VS BAHRAIN
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+http://38.75.136.137:98/gslb/dsdqpub/cctv5p.m3u8?auth=testpub
+#EXTINF:-1 group-title="LIVE 17-11-26" tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg",19.00 KRYGYSTAN VS VIETNAM
+https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
+#EXTINF:-1 group-title="LIVE 17-11-26" tvg-logo="https://kokotv.my.id/Foto/caf.jpeg",20.00 MALAWI VS EGYPT
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://a83aivottlinear-a.akamaihd.net/OTTB/syd-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
+#EXTINF:-1 group-title="LIVE 17-11-26" tvg-logo="https://kokotv.my.id/Foto/caf.jpeg",20.00 TANZANIA VS NIGERIA
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
+#EXTINF:-1 group-title="LIVE 17-11-26" tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg",20.00 LEBANON VS PALESTINA
+https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
+#EXTINF:-1 group-title="LIVE 17-11-26" tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg",20.00 JAPAN VS PARAGUAY
+https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
+#EXTINF:-1 group-title="LIVE 17-11-26" tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg",21.00 QATAR VS SOUTH KOREA
+https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
+#EXTINF:-1 group-title="LIVE 17-11-26" tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg",22.30 SAUDI ARABIA VS UZBEKISTAN
+https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
+#EXTINF:-1 group-title="LIVE 17-11-26" tvg-logo="https://kokotv.my.id/Foto/caf.jpeg",23.00 GAMBIA VS IVORY COAST
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://a83aivottlinear-a.akamaihd.net/OTTB/syd-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
+#EXTINF:-1 group-title="LIVE 17-11-26" tvg-logo="https://kokotv.my.id/Foto/caf.jpeg",23.00 KENYA VS SOUTH AFRICA
+https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
+#EXTINF:-1 group-title="LIVE 17-11-26" tvg-logo="https://kokotv.my.id/Foto/caf.jpeg",23.00 TOGO VS ALGERIA
+https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
+#EXTINF:-1 group-title="LIVE 17-11-26" tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg",23.00 JORDAN VS AUSTRALIA
+https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
 #EXTINF:-1 tvg-logo="https://go4.pw/FRANCE/canalpre.png" group-title="LIVE EVENT",CANAL+ PREMIER LEAGUE FHD
 https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/203876.ts
 #EXTINF:-1 tvg-logo="https://go4.pw/FRANCE/canalpre.png" group-title="LIVE EVENT",CANAL+ PREMIER LEAGUE HEVC
