@@ -1,131 +1,26 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="ZeroTV" tvg-name="ZeroTV" group-title="ZeroTV Official",ZeroTV Special
 https://raw.githubusercontent.com/zerofeed-id/WELCOME/refs/heads/main/ZeroTV_Tele.ts
-#EXTINF:-1 group-title="LIVE 17-11-26" tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg",22.30 SAUDI ARABIA VS UZBEKISTAN
-https://live2.jorvakstreamcache.com/live/channel23.m3u8
-#EXTINF:-1 group-title="LIVE 17-11-26" tvg-logo="https://kokotv.my.id/Foto/caf.jpeg",23.00 GAMBIA VS IVORY COAST
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://a83aivottlinear-a.akamaihd.net/OTTB/syd-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
-#EXTINF:-1 group-title="LIVE 17-11-26" tvg-logo="https://kokotv.my.id/Foto/caf.jpeg",23.00 KENYA VS SOUTH AFRICA
-https://live2.jorvakstreamcache.com/live/channel12.m3u8
-#EXTINF:-1 group-title="LIVE 17-11-26" tvg-logo="https://kokotv.my.id/Foto/caf.jpeg",23.00 TOGO VS ALGERIA
-https://live2.jorvakstreamcache.com/live/channel6.m3u8
-#EXTINF:-1 group-title="LIVE 17-11-26" tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg",23.00 JORDAN VS AUSTRALIA
-https://live2.jorvakstreamcache.com/live/channel4.m3u8
-#EXTINF:-1 group-title="LIVE 18-11-26" tvg-logo="https://kokotv.my.id/Foto/unations.jpeg",02.45 DENMARK VS NORWAY
-https://live2.jorvakstreamcache.com/live/channel16.m3u8
-#EXTINF:-1 group-title="LIVE 18-11-26" tvg-logo="https://kokotv.my.id/Foto/unations.jpeg",02.45 WALES VS PORTUGAL
-https://live2.jorvakstreamcache.com/live/channel1.m3u8
-#EXTINF:-1 group-title="LIVE 18-11-26" tvg-logo="https://kokotv.my.id/Foto/unations.jpeg",02.45 BOSNIA VS RUMANIA
-https://live2.domaincdn.cc/livecdn/channel-9.m3u8?auth_key=3000001794926146-0-0-6b68a534b76377cdf7a00fd7dbc12a20
-#EXTINF:-1 group-title="LIVE 18-11-26" tvg-logo="https://kokotv.my.id/Foto/unations.jpeg",02.45 HUNGARY VS NORTHEM IRELAND
-https://live2.jorvakstreamcache.com/live/channel19.m3u8
-#EXTINF:-1 group-title="LIVE 18-11-26" tvg-logo="https://kokotv.my.id/Foto/unations.jpeg",02.45 IRELAND VS KOSOVO
-https://live2.jorvakstreamcache.com/live/channel24.m3u8
-#EXTINF:-1 group-title="LIVE 18-11-26" tvg-logo="https://kokotv.my.id/Foto/unations.jpeg",02.45 POLAND VS SWEDEN
-https://live2.jorvakstreamcache.com/live/channel12.m3u8
-#EXTINF:-1 group-title="LIVE 18-11-26" tvg-logo="https://kokotv.my.id/Foto/unations.jpeg",02.45 UKRAINA VS GEORGIA
+#EXTINF:-1 group-title="EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg",06.00 ARGENTINA VS COSTA RICA
+https://live2.jorvakstreamcache.com/live/channel11.m3u8
+#EXTINF:-1 group-title="EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg",06.00 CHILE VS KOLOMBIA
 https://live2.jorvakstreamcache.com/live/channel18.m3u8
-#EXTINF:-1 group-title="LIVE 18-11-26" tvg-logo="https://kokotv.my.id/Foto/caf.jpeg",03.00 NIGERIA VS MORROCCO
-https://live2.jorvakstreamcache.com/live/channel8.m3u8
-#EXTINF:-1 group-title="LIVE 18-11-26" tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg",06.00 ARGENTINA VS COSTA RICA
-https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
-#EXTINF:-1 group-title="LIVE 18-11-26" tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg",06.00 CHILE VS KOLOMBIA
-https://live2.jorvakstreamcache.com/live/channel18.m3u8
-#EXTINF:-1 group-title="LIVE 18-11-26" tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg",06.30 EQUADOR VS BOLIVIA
-https://kokotv.my.id/Videointro2.php?type=live.m3u8?type=live.m3u8
-#EXTINF:-1 group-title="LIVE 18-11-26" tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg",06.30 URUGUAY VS DOMICIAN RAP
-https://live2.domaincdn.cc/livecdn/channel-9.m3u8?auth_key=3000001794926146-0-0-6b68a534b76377cdf7a00fd7dbc12a20
-#EXTINF:-1 group-title="LIVE 18-11-26" tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg",07.00 USA VS HAITI
+#EXTINF:-1 group-title="EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg",06.30 EQUADOR VS BOLIVIA
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://tg121gr4ugmtwgczdrpbufa3dcmmcpf5gkce.100ycdn.com/live1.quickscoreboardz.com/live/channel11/playlist.m3u8?wsSecret=6d6b9d77e66d6270b08089362184f2d7&wsABSTime=1795001708&wsSession=6370ed02fffd4c6a7f8f69f0-179495851253617&wsIPSercert=5d6a05f3a373ca9c616a0b2b40b0456b&wsBindIP=2&wsserid=1168311488338867124
+#EXTINF:-1 group-title="EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg",06.30 URUGUAY VS DOMICIAN RAP
+https://live2.jorvakstreamcache.com/live/channel9.m3u8
+#EXTINF:-1 group-title="EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg",07.00 USA VS HAITI
 https://live2.jorvakstreamcache.com/live/channel17.m3u8
-#EXTINF:-1 group-title="LIVE 18-11-26" tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg",09.30 MEXICO VS JAMAICA
+#EXTINF:-1 group-title="EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/friendly.jpeg",09.30 MEXICO VS JAMAICA
 https://live2.jorvakstreamcache.com/live/channel21.m3u8
-#EXTINF:-1 group-title="LIVE 18-11-26" tvg-logo="https://kokotv.my.id/Foto/shoppecup.jpeg",18.00 HO CHI MINH VS BURIRAM UNITED FC
+#EXTINF:-1 group-title="EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/shoppecup.jpeg",18.00 HO CHI MINH VS BURIRAM UNITED FC
 https://live2.jorvakstreamcache.com/live/channel1.m3u8
-#EXTINF:-1 group-title="LIVE 18-11-26" tvg-logo="https://kokotv.my.id/Foto/shoppecup.jpeg",18.30 BORNEO FC VS MANILLA DIGER
+#EXTINF:-1 group-title="EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/shoppecup.jpeg",18.30 BORNEO FC VS MANILLA DIGER
 https://live2.jorvakstreamcache.com/live/channel6.m3u8
-#EXTINF:-1 group-title="LIVE 18-11-26" tvg-logo="https://kokotv.my.id/Foto/shoppecup.jpeg",19.00 TAMPINES ROVERS FC VS RATCHABURI FC
+#EXTINF:-1 group-title="EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/shoppecup.jpeg",19.00 TAMPINES ROVERS FC VS RATCHABURI FC
 https://live2.jorvakstreamcache.com/live/channel15.m3u8
-#EXTINF:-1 tvg-logo="https://go4.pw/FRANCE/canalpre.png" group-title="LIVE EVENT",CANAL+ PREMIER LEAGUE FHD
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/203876.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/FRANCE/canalpre.png" group-title="LIVE EVENT",CANAL+ PREMIER LEAGUE HEVC
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/203880.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/FRANCE/canalpre.png" group-title="LIVE EVENT",CANAL+ PREMIER LEAGUE SD
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/203881.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/57.png" group-title="LIVE EVENT",LIGUE 1+ 1 FHD ◉
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1276481.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/57.png" group-title="LIVE EVENT",LIGUE 1+ 1 HD
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1298700.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/57.png" group-title="LIVE EVENT",LIGUE 1+ 2 FHD
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1276480.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/57.png" group-title="LIVE EVENT",LIGUE 1+ 2 HD
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1298692.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/57.png" group-title="LIVE EVENT",LIGUE 1+ 3 FHD
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1276479.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/57.png" group-title="LIVE EVENT",LIGUE 1+ 3 HD
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1298693.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/57.png" group-title="LIVE EVENT",LIGUE 1+ 4 FHD
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1276478.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/57.png" group-title="LIVE EVENT",LIGUE 1+ 4 HD
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1298701.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/57.png" group-title="LIVE EVENT",LIGUE 1+ 5 FHD
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1276477.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/57.png" group-title="LIVE EVENT",LIGUE 1+ 5 HD
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1298694.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/57.png" group-title="LIVE EVENT",LIGUE 1+ 6 FHD
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1276476.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/57.png" group-title="LIVE EVENT",LIGUE 1+ 6 HD
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1298702.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/57.png" group-title="LIVE EVENT",LIGUE 1+ 7 FHD
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1276475.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/57.png" group-title="LIVE EVENT",LIGUE 1+ 7 HD
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1298695.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/57.png" group-title="LIVE EVENT",LIGUE 1+ 8 FHD
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1276474.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/57.png" group-title="LIVE EVENT",LIGUE 1+ 8 HD
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1298696.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/57.png" group-title="LIVE EVENT",LIGUE 1+ 9 FHD
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1276473.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/57.png" group-title="LIVE EVENT",LIGUE 1+ 9 HD
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1298697.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/57.png" group-title="LIVE EVENT",LIGUE 1+ 10 FHD
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1276472.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/57.png" group-title="LIVE EVENT",LIGUE 1+ 10 HD
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1298698.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/FRANCE/DAZN.png" group-title="LIVE EVENT",DAZN LALIGA 1 FHD
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1482879.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/FRANCE/DAZN.png" group-title="LIVE EVENT",DAZN LALIGA 2 FHD
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1482880.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/FRANCE/DAZN.png" group-title="LIVE EVENT",DAZN LALIGA 3 FHD
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1482881.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/FRANCE/DAZN.png" group-title="LIVE EVENT",DAZN LALIGA 4 FHD
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1482882.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/FRANCE/DAZN.png" group-title="LIVE EVENT",DAZN LALIGA 5 FHD
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1482883.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/ARABE/shahhid.png" group-title="LIVE EVENT",SHAHID BUNDESLIGA 1
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1308885.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/ARABE/shahhid.png" group-title="LIVE EVENT",SHAHID BUNDESLIGA 2
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1308886.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/ARABE/shahhid.png" group-title="LIVE EVENT",SHAHID BUNDESLIGA 3
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1308887.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/ARABE/shahhid.png" group-title="LIVE EVENT",SHAHID BUNDESLIGA 4
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1308888.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/ARABE/shahhid.png" group-title="LIVE EVENT",SHAHID BUNDESLIGA 5
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1308889.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/ARABE/shahhid.png" group-title="LIVE EVENT",SHAHID BUNDESLIGA 6
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1308890.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/ARABE/shahhid.png" group-title="LIVE EVENT",SHAHID BUNDESLIGA 7
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1308891.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/ARABE/shahhid.png" group-title="LIVE EVENT",SHAHID BUNDESLIGA 8
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1308892.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/ARABE/shahhid.png" group-title="LIVE EVENT",SHAHID BUNDESLIGA 9
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1308893.ts
-#EXTINF:-1 tvg-logo="https://go4.pw/ARABE/shahhid.png" group-title="LIVE EVENT",SHAHID BUNDESLIGA 10
-https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/1308894.ts
 #EXTINF:-1 tvg-id="TUDN.mx" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmztjaTzy0rkTPqrUGp9Y2eH9rg27qQ42iUA&s" group-title="WORLD SPORT FHD",  KOKO SPORT FHD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -226,18 +121,32 @@ https://my8k.gamerdz1517.com/live/gamerdz1517/professional-team/211992.ts
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 https://bandeltv.xyz/sc1980/2025/Kvision/mpd.php/.mpd?id=1
 #EXTINF:-1 tvg-id="1" tvg-logo="https://www.visionplus.id/images/repository/720/507720-LOGO-m.png" group-title="VISION +",RCTI
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://r-plus.sedotcw3.workers.dev/index.m3u8?id=rcti
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#EXTVLCOPT:http-origin=https://www.visionplus.id
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://bandeltv.xyz/sc1980/2025/Kvision/drm.php?id=1
+https://bandeltv.xyz/sc1980/2025/Kvision/mpd.php/.mpd?id=1
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_sctv.png" group-title="VISION +",SCTV HD
-#EXTVLCOPT:http-user-agent=VidioPlayer/7.27.12
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://vidsemar.pages.dev/terraluna3/204.mpd
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#EXTVLCOPT:http-origin=https://www.visionplus.id
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://bandeltv.xyz/sc1980/2025/Kvision/drm.php?id=8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+https://d3b0v7fggu5zwm.cloudfront.net/out/v1/9e9aba7068ca4c7f8a73381bef5f8742/index.mpd
 #EXTINF:-1 tvg-id="Indosiar.id@SDr" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml" tvg-logo="https://thumbor.prod.vidiocdn.com/0plBZ7Gso7gNBJxid9ksA8HMGxc=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/205/54ab19.png" group-title="VISION +",INDOSIAR
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
-https://aspaltvpasti.top/Drmvidbos/Akun121/bosstv.m3u8?id=205
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#EXTVLCOPT:http-origin=https://www.visionplus.id
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://bandeltv.xyz/sc1980/2025/Kvision/drm.php?id=9
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+https://d2tjypxxy769fn.cloudfront.net/out/v1/e930be336fed49e6b26a7554e113f7a4/index.mpd
 #EXTINF:-1 tvg-id="2" tvg-logo="https://www.visionplus.id/images/repository/750/507750-LOGO-m.png" group-title="VISION +",MNC TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
