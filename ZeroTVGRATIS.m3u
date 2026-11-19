@@ -18,9 +18,7 @@ https://live1.quickscoreboardz.com/live/channel62.m3u8?wsSecret=d61cb551b32cf149
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
 https://live1.quickscoreboardz.com/live/channel63.m3u8?wsSecret=f8961a9de190d4ba844a475960d230c8&wsABSTime=1794935064
 #EXTINF:-1 group-title="LIVE 19-11-26" tvg-logo="https://kokotv.my.id/Foto/shoppecup.jpeg",19.00 PERSIB BANDUNG VS SHAN UNITED
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-https://proxy-v.rctiplus.id/live/web/rcti/index.m3u8
+http://124.222.153.240/kakaotv/get_channel.php?channel=spotv_prime|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36&Cookie=spotv_prime_replace_cookie
 #EXTINF:-1 group-title="LIVE 19-11-26" tvg-logo="https://kokotv.my.id/Foto/worldcup-u17.jpeg",20.00 FRANCE U17 VS HAITI U17
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
