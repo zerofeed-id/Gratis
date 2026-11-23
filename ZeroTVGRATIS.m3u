@@ -1,7 +1,7 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="ZeroTV" tvg-name="ZeroTV" group-title="ZeroTV Official",ZeroTV Special
 https://raw.githubusercontent.com/zerofeed-id/WELCOME/refs/heads/main/ZeroTV_Tele.ts
-#EXTINF:-1 tvg-id="update-tanggal" tvg-name="Update : 23-nov-2026" tvg-logo="https://kokotv.my.id/Monyet.jpg" group-title="LIVE EVENT HARI INI",Update : 23-nov-2026
+#EXTINF:-1 tvg-id="update-tanggal" tvg-name="Update : 24-nov-2026" tvg-logo="https://kokotv.my.id/Monyet.jpg" group-title="LIVE EVENT HARI INI",Update : 24-nov-2026
 https://stream.playcdn.de/playlist/c1e4652faa967005f005728af5d5417e/5/480.m3u8?x=1
 #EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 03:00 WIB Brentford vs Everton
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
@@ -69,20 +69,26 @@ https://pulse1.sanseny001.shop/puk5/usergen0grnd8l2y6gw.m3u8
 #EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", FIFA World Cup 2026 10
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
 <=================== Badminton =============================>
-#EXTINF:-1 tvg-id="AFC CHAMPIONS LEAGUE ELITE" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 20:45 WIB |NEFTCHI VS AL-HILAL - AFC CHAMPIONS LEAGUE ELITE| ast gr
-http://tv.cloudcdn.me:80/live.ts?channelId=93741&uid=10223&deviceMac=00:1A:79:07:07:43&deviceSn=84F4AB37DF6E6
+#EXTINF:-1 tvg-id="AFC CHAMPIONS LEAGUE ELITE" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 20:45 WIB |NEFTCHI VS AL-HILAL - AFC CHAMPIONS LEAGUE ELITE| socc
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
+https://dsgtq5sngxkde.cloudfront.net/soccer/index.m3u8
 #EXTINF:-1 tvg-id="AFC CHAMPIONS LEAGUE ELITE" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 23:00 WIB |AL-AIN VS ESTEGHLAL - AFC CHAMPIONS LEAGUE ELITE| ast arbol
 http://tv.cloudcdn.me:80/live.ts?channelId=133062&uid=10223&deviceMac=00:1A:79:07:07:43&deviceSn=84F4AB37DF6E6
-#EXTINF:-1 tvg-id="AFC CHAMPIONS LEAGUE ELITE" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 23:00 WIB |AL-SHAMAL VS AL-AHLI - AFC CHAMPIONS LEAGUE ELITE| ast gr
-http://tv.cloudcdn.me:80/live.ts?channelId=93741&uid=10223&deviceMac=00:1A:79:07:07:43&deviceSn=84F4AB37DF6E6
+#EXTINF:-1 tvg-id="AFC CHAMPIONS LEAGUE ELITE" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 23:00 WIB |AL-SHAMAL VS AL-AHLI - AFC CHAMPIONS LEAGUE ELITE| socc
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
+https://dsgtq5sngxkde.cloudfront.net/soccer/index.m3u8
 #EXTINF:-1 tvg-id="AFC CHAMPIONS LEAGUE ELITE" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 23:00 WIB |TRACTORS SAZI VS AL-WASL - AFC CHAMPIONS LEAGUE ELITE| ast arbol2
 http://tv.cloudcdn.me:80/live.ts?channelId=133063&uid=10223&deviceMac=00:1A:79:07:07:43&deviceSn=84F4AB37DF6E6
 #EXTINF:-1 tvg-id="AFC CHAMPIONS LEAGUE ELITE" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 01:15 WIB |AL-QUWA VS AL-GHARAFA - AFC CHAMPIONS LEAGUE ELITE| ast arbol
 http://tv.cloudcdn.me:80/live.ts?channelId=133062&uid=10223&deviceMac=00:1A:79:07:07:43&deviceSn=84F4AB37DF6E6
 #EXTINF:-1 tvg-id="AFC CHAMPIONS LEAGUE ELITE" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 01:15 WIB |AL-ITTIHAD VS PAKHTAKOR - AFC CHAMPIONS LEAGUE ELITE| irb
 https://sw.run/CAMPWIKI-VARZESH
-#EXTINF:-1 tvg-id="PREMIER LEAGUE" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥03;00 WIB |BRENTFORD VS EVERTON - PREMIER LEAGUE| SERVER 1 astr pl
-http://tv.cloudcdn.me:80/live.ts?channelId=93739&uid=10223&deviceMac=00:1A:79:07:07:43&deviceSn=84F4AB37DF6E6
+#EXTINF:-1 tvg-id="PREMIER LEAGUE" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥03;00 WIB |BRENTFORD VS EVERTON - PREMIER LEAGUE| SERVER 1 daz1
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1"
+#EXTVLCOPT:http-referrer=https://aesport.tv/
+https://liveua.cdnfly.click/pt_elevensport1/index.m3u8
 #EXTINF:-1 tvg-id="PREMIER LEAGUE" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥03;00 WIB |BRENTFORD VS EVERTON - PREMIER LEAGUE| SERVER 2 seta1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
