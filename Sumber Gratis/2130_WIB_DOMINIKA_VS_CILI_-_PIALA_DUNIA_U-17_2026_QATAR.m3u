@@ -1,3 +1,5 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="PIALA DUNIA U17"  group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 21:30 WIB |DOMINIKA VS CILI - PIALA DUNIA U-17 2026 QATAR|
-https://live2.jorvakstreamcache.com/live/channel21.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-11/off-tvc?is_off_add=false
+https://live2.domaincdn.cc/livecdn/channel-21.m3u8?auth_key=3000001795525946-0-0-e42036d41d09e2edf7875717caab13df

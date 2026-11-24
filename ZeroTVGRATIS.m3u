@@ -1,7 +1,7 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="ZeroTV" tvg-name="ZeroTV" group-title="ZeroTV Official",ZeroTV Special
 https://raw.githubusercontent.com/zerofeed-id/WELCOME/refs/heads/main/ZeroTV_Tele.ts
-#EXTINF:-1 tvg-id="update-tanggal" tvg-name="Update : 24-nov-2026" tvg-logo="https://kokotv.my.id/Monyet.jpg" group-title="LIVE EVENT HARI INI",Update : 24-nov-2026
+#EXTINF:-1 tvg-id="update-tanggal" tvg-name="Update : 25-nov-2026" tvg-logo="https://kokotv.my.id/Monyet.jpg" group-title="LIVE EVENT HARI INI",Update : 25-nov-2026
 https://stream.playcdn.de/playlist/c1e4652faa967005f005728af5d5417e/5/480.m3u8?x=1
 #EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 00:45 WIB Galatasaray vs Aston Villa
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -62,26 +62,22 @@ https://live1.quickscoreboardz.com/live/channel64.m3u8?wsSecret=431e06395dedb3cb
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=60dc08aae52f4c0b806a8e43f24a12c8:30d5b579966d822b215ec51a91d8a271
 https://ls-mp02stg.eo-edgefunctions7.com/out/v1/3170252e3fb0453085f2f4b0f8401a6b/manifest.mpd
+#EXTINF:-1 tvg-id="AFC CHAMPIONS LEAGUE TWO" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥20;45 WIB |EAST BENGAL VS AL-HUSSEIN - AFC CHAMPIONS LEAGUE TWO| SERVER 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-11/off-tvc?is_off_add=false
+https://live2.domaincdn.cc/livecdn/channel-16.m3u8?auth_key=3000001795527679-0-0-73e60baf18a5c45fecb816a8479ebf28
 #EXTINF:-1 tvg-id="AFC CHAMPIONS LEAGUE TWO" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥23;00 WIB |AL-SEEB VS AL-SHORTA - AFC CHAMPIONS LEAGUE TWO| socc
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://ln.run/CAMPWIKI-V-SOCCER-CHANEL
-#EXTINF:-1 tvg-id="AFC CHAMPIONS LEAGUE ELITE" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 19:15 WIB |SHANGHAI PORT VS BURIRAM UNITED - AFC CHAMPIONS LEAGUE ELITE|
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-11/off-tvc?is_off_add=false
-https://live2.domaincdn.cc/livecdn/channel-11.m3u8?auth_key=3000001795523548-0-0-58182085b7cb1d1cc4e019449dd1046c
-#EXTINF:-1 tvg-id="AFC CHAMPIONS LEAGUE ELITE" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 19:15 WIB |RATCHABURI VS JOHOR DT - AFC CHAMPIONS LEAGUE ELITE|
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://ln.run/CAMPWIKI-V-SOCCER-CHANEL
-#EXTINF:-1 tvg-id="AFC CHAMPIONS LEAGUE ELITE" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 19:15 WIB |CONG AN HANOI VS VISSEL KOBE - AFC CHAMPIONS LEAGUE ELITE|
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-11/off-tvc?is_off_add=false
-https://live2.domaincdn.cc/livecdn/channel-1.m3u8?auth_key=3000001795523814-0-0-236384d5755cdd1a4b5faae3e699b01f
 #EXTINF:-1 tvg-id="AFC CHAMPIONS LEAGUE ELITE" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 23:00 WIB |AL-AHLI VS AL-QUDISIYA - AFC CHAMPIONS LEAGUE ELITE|
-https://live2.jorvakstreamcache.com/live/channel6.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-11/off-tvc?is_off_add=false
+https://live2.domaincdn.cc/livecdn/channel-6.m3u8?auth_key=3000001795525433-0-0-35c1802ea0874e945b12b589252ef11b
 #EXTINF:-1 tvg-id="AFC CHAMPIONS LEAGUE ELITE" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 01:15 WIB |AL-NASSR VS AL-SADD - AFC CHAMPIONS LEAGUE ELITE|
-https://live2.jorvakstreamcache.com/live/channel12.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-11/off-tvc?is_off_add=false
+https://live2.domaincdn.cc/livecdn/channel-12.m3u8?auth_key=3000001795525531-0-0-ab84686263805ab71db7ab82308dfb28
 #EXTINF:-1 tvg-id="UEFA CHAMPIONS LEAGUE" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥00;45 WIB |GALATASARAY VS ASTON VILLA - UEFA CHAMPIONS LEAGUE| tn 2
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b
@@ -112,8 +108,10 @@ https://pulse1.sanseny001.shop/puki1/usergendx6kal0r2bsm.m3u8
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd
-#EXTINF:-1 tvg-id="UEFA CHAMPIONS LEAGUE" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥03;00 WIB |SLOVAN BRATISLAVA VS REAL BETIS - UEFA CHAMPIONS LEAGUE|
-https://live2.jorvakstreamcache.com/live/channel18.m3u8
+#EXTINF:-1 tvg-id="UEFA CHAMPIONS LEAGUE" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥03;00 WIB |SLOVAN BRATISLAVA VS REAL BETIS - UEFA CHAMPIONS LEAGUE| prim play
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1"
+#EXTVLCOPT:http-referrer=https://pulse1.sanseny001.shop/000/
+https://pulse1.sanseny001.shop/puki1/usergendx6kal0r2bsm.m3u8
 #EXTINF:-1 tvg-id="MLS" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥25 NOV 10;00 WIB |SJ EARTHQUAKES VS HOUSTON DYNAMO - MAJOR LEAGUE SOCCER| fox dep
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -125,9 +123,13 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1
 #KODIPROP:inputstream.adaptive.license_key=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f
 http://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/vwq77hfgzw/out/v1/b858e0b845c64cec953887bd4269e4ea/cenc.mpd
 #EXTINF:-1 tvg-id="PIALA DUNIA U17" group-logo="https://i.imgur.com/1pJHLzm.png" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 19:30 WIB |VENEZUELA VS RUMANIA - PIALA DUNIA U-17 2026 QATAR|
-https://live2.jorvakstreamcache.com/live/channel13.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-11/off-tvc?is_off_add=false
+https://live2.domaincdn.cc/livecdn/channel-13.m3u8?auth_key=3000001795525698-0-0-750012ffbd6db538784ef6256dc04d37
 #EXTINF:-1 tvg-id="PIALA DUNIA U17" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 19:30 WIB |KOSTA RIKA VS IRLANDIA - PIALA DUNIA U-17 2026 QATAR|
-https://live2.jorvakstreamcache.com/live/channel23.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-11/off-tvc?is_off_add=false
+https://live2.domaincdn.cc/livecdn/channel-23.m3u8?auth_key=3000001795525804-0-0-953821392add681ed133270bd037987d
 #EXTINF:-1 tvg-id="PIALA DUNIA U17" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 20:00 WIB |JEPANG VS SERBIA - PIALA DUNIA U-17 2026 QATAR| fox on
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=8ec2e6248abe2e10e16e439c9b85ffd8:f121b015c2a5197828355fb6a874c297
@@ -138,7 +140,9 @@ https://otte.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/worucjnctz/o
 #KODIPROP:inputstream.adaptive.license_key=09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd
 #EXTINF:-1 tvg-id="PIALA DUNIA U17"  group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 21:30 WIB |DOMINIKA VS CILI - PIALA DUNIA U-17 2026 QATAR|
-https://live2.jorvakstreamcache.com/live/channel21.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-11/off-tvc?is_off_add=false
+https://live2.domaincdn.cc/livecdn/channel-21.m3u8?auth_key=3000001795525946-0-0-e42036d41d09e2edf7875717caab13df
 #EXTINF:-1 tvg-id="PIALA DUNIA U17" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 22:00 WIB |BRASIL VS TANZANIA - PIALA DUNIA U-17 2026 QATAR| SERVER 1 unite 2
 http://tv.cloudcdn.me:80/live.ts?channelId=134125&uid=19260&deviceMac=00:1A:79:00:02:27
 #EXTINF:-1 tvg-id="PIALA DUNIA U17" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 22:00 WIB |BRASIL VS TANZANIA - PIALA DUNIA U-17 2026 QATAR| SERVER 2 fox on
@@ -146,7 +150,9 @@ http://tv.cloudcdn.me:80/live.ts?channelId=134125&uid=19260&deviceMac=00:1A:79:0
 #KODIPROP:inputstream.adaptive.license_key=8ec2e6248abe2e10e16e439c9b85ffd8:f121b015c2a5197828355fb6a874c297
 https://otte.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/worucjnctz/out/v1/20ac5ecdc9b848dc92e7f1188bdf6ff6/cenc.mpd
 #EXTINF:-1 tvg-id="PIALA DUNIA U17" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 22:30 WIB |ALJAZAIR VS MONTENEGRO - PIALA DUNIA U-17 2026 QATAR|
-https://live2.jorvakstreamcache.com/live/channel18.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-11/off-tvc?is_off_add=false
+https://live2.domaincdn.cc/livecdn/channel-18.m3u8?auth_key=3000001795526193-0-0-72aeff167e56fb5499b2daf2af8e5b5d
 NGGAK ADA GUNANYA LO COMOT NIH LINK😂MALAH TIAP HARI LO RIBET COPY PASTE SNDIRI🤣🤣
 LINKNYA TIAP HRI D GNTI USER NYA😂🤣COBA AJA SENDIRI KALO NGGK PRCYA😁
 #EXTINF:-1 tvg-id="TUDN.mx" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmztjaTzy0rkTPqrUGp9Y2eH9rg27qQ42iUA&s" group-title="WORLD SPORT FHD",  KOKO SPORT FHD
