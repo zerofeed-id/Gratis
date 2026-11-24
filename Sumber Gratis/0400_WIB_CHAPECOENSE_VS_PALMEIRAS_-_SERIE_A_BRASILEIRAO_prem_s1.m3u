@@ -1,0 +1,6 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="SERIE A BRASIL" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 04:00 WIB |CHAPECOENSE VS PALMEIRAS - SERIE A BRASILEIRAO| prem s1
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f
+http://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/vwq77hfgzw/out/v1/b858e0b845c64cec953887bd4269e4ea/cenc.mpd
