@@ -1,7 +1,7 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="ZeroTV" tvg-name="ZeroTV" group-title="ZeroTV Official",ZeroTV Special
 https://raw.githubusercontent.com/zerofeed-id/WELCOME/refs/heads/main/ZeroTV_Tele.ts
-#EXTINF:-1 tvg-id="update-tanggal" tvg-name="Update : 25-nov-2026" tvg-logo="https://kokotv.my.id/Monyet.jpg" group-title="LIVE EVENT HARI INI",Update : 25-nov-2026
+#EXTINF:-1 tvg-id="update-tanggal" tvg-name="Update : 26-nov-2026" tvg-logo="https://kokotv.my.id/Monyet.jpg" group-title="LIVE EVENT HARI INI",Update : 26-nov-2026
 https://stream.playcdn.de/playlist/c1e4652faa967005f005728af5d5417e/5/480.m3u8?x=1
 #EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 19:15 WIB Persib vs Seoul
 #EXTVLCOPT:http-user-agent=android-R+
@@ -68,32 +68,16 @@ https://nvelop-livecloud.pstatic.net/chzzk/lip2_kr/cflexnmss2u0002/ljf1nabhhzi8p
 https://nvelop-livecloud.pstatic.net/chzzk/lip2_kr/cflexnmss2u0006/satnuewopdanmtn5funlia0jkgcxc7w4gqkj/k7yqldb3di1c0lkjgdxbxmsgcxc7w4glw7_hls_playlist.m3u8?hdnts=st=1795600038~exp=1795661248~acl=*/satnuewopdanmtn5funlia0jkgcxc7w4gqkj/*~hmac=42e3be3abe857bc401339367e29f196b947ff2e1ed58fb293ded7830c384f724
 #EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", REQUEST BY MANTAN thanks Andien ❤️
 https://drive.google.com/uc?export=download&id=1Ja7YNsLy2uIMUSTZrNN-tuWxo98l8Iud
-#EXTINF:-1 tvg-id="AFC CHAMPIONS LEAGUE TWO" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥19;15 WIB |PERSIB VS FC SOUL - AFC CHAMPIONS LEAGUE TWO| socc
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://ln.run/CAMPWIKI-V-SOCCER-CHANEL
-#EXTINF:-1 tvg-id="AFC CHAMPIONS LEAGUE TWO" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 20;45 WIB |NASAF VS KHALIDIYA - AFC CHAMPIONS LEAGUE TWO| 2cz
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referer=https://webtv.sk/tv/
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
-https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd
 #EXTINF:-1 tvg-id="AFC CHAMPIONS LEAGUE TWO" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 23:00 WIB |MUHARRAQ VS ARKADAG - AFC CHAMPIONS LEAGUE TWO|
 https://live200.kravonstreamdelivery.com/live/channel11.m3u8
 #EXTINF:-1 tvg-id="AFC CHAMPIONS LEAGUE TWO" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 23:00 WIB |AL-JAZIRA VS GOL GOHAR - AFC CHAMPIONS LEAGUE TWO| iri
 https://sw.run/CAMPWIKI-VARZESH
-#EXTINF:-1 tvg-id="AFC CHAMPIONS LEAGUE TWO" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 23:00 WIB |AL-FAISALY VS AL-RAYYAN - AFC CHAMPIONS LEAGUE TWO| vt6
-https://dethich.pw/vtv6/index.m3u8
+#EXTINF:-1 tvg-id="AFC CHAMPIONS LEAGUE TWO" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 23:00 WIB |AL-FAISALY VS AL-RAYYAN - AFC CHAMPIONS LEAGUE TWO|
+https://live3979.zundrixmediapipeline.com/live/channel6.m3u8
 #EXTINF:-1 tvg-id="AFC CHAMPIONS LEAGUE TWO" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 23:00 WIB |AL-KUWAIT VS AL-WAHDA - AFC CHAMPIONS LEAGUE TWO|
 https://live200.kravonstreamdelivery.com/live/channel5.m3u8
-#EXTINF:-1 tvg-id="AFC CHAMPIONS LEAGUE TWO" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 01:15 WIB |AL-TAAWON VS AL-NAHDA FC - AFC CHAMPIONS LEAGUE TWO| vt6
-https://dethich.pw/vtv6/index.m3u8
-#EXTINF:-1 tvg-id="AFC CHAMPIONS LEAGUE ELITE" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 17:00 WIB |KASHIMA ANTLERS VS JEONBUK MOTORS - AFC CHAMPIONS LEAGUE ELITE| SERVER 2
-https://live200.kravonstreamdelivery.com/live/channel2.m3u8
-#EXTINF:-1 tvg-id="AFC CHAMPIONS LEAGUE ELITE" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 17:00 WIB |GAMBA OSAKA VS PORT FC- AFC CHAMPIONS LEAGUE ELITE| SERVER 2
-https://live200.kravonstreamdelivery.com/live/channel15.m3u8
+#EXTINF:-1 tvg-id="AFC CHAMPIONS LEAGUE TWO" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 01:15 WIB |AL-TAAWON VS AL-NAHDA FC - AFC CHAMPIONS LEAGUE TWO|
+https://live3979.zundrixmediapipeline.com/live/channel20.m3u8
 #EXTINF:-1 tvg-id="UEFA CHAMPIONS LEAGUE" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥00;45 WIB |SABAH FK VS BARCELONA - UEFA CHAMPIONS LEAGUE| tn 4
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408
@@ -127,10 +111,8 @@ https://live200.kravonstreamdelivery.com/live/channel18.m3u8
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=6cfb55b12aaa9df1626a8adaa4f26329:84486e2e8e5fdee2ef8240019923078c
 https://video.beeline.tv/live/d/channel321.isml/manifest-stb.mpd
-#EXTINF:-1 tvg-id="PIALA DUNIA U17" group-logo="https://i.imgur.com/1pJHLzm.png" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 19:30 WIB |EKUADOR VS KOREA SELATAN - PIALA DUNIA U-17 2026 QATAR| ctv5
+#EXTINF:-1 tvg-id="PIALA DUNIA U17" group-logo="https://i.imgur.com/1pJHLzm.png" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 19:30 WIB |xxxx V xxxx - PIALA DUNIA U-17 2026 QATAR| ctv5
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv5md
-#EXTINF:-1 tvg-id="PIALA DUNIA U17" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 19:30 WIB |UGANDA VS KALEDONIA BARU - PIALA DUNIA U-17 2026 QATAR|
-https://live200.kravonstreamdelivery.com/live/channel28.m3u8
 #EXTINF:-1 tvg-id="PIALA DUNIA U17" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 21:30 WIB |YUNANI VS QATAR - PIALA DUNIA U-17 2026 QATAR|
 https://live200.kravonstreamdelivery.com/live/channel13.m3u8
 #EXTINF:-1 tvg-id="PIALA DUNIA U17" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 22:30 WIB |AUSTRALIA VS MOZAMBIK - PIALA DUNIA U-17 2026 QATAR| fox on
