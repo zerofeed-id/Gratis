@@ -1,5 +1,17 @@
 #EXTM3U
 #EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 15:30 WIB Borneo vs Persita
+#EXTVLCOPT:http-origin=https://player.787200.com/
+#EXTVLCOPT:http-referrer=https://player.787200.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+https://live.vivo155.com/live/sd-1-4614389.m3u8?txSecret=91455f524fed56afc868ba636d987096&txTime=6B07FFE3
+#EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 15:30 WIB Borneo vs Persita
+https://pul-tenm.gkykp.com/live/sd-1-4614389.m3u8?txSecret=7661d62ab5b81aaca973705f8867df4f&txTime=6B093BC8
+#EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 15:30 WIB Borneo vs Persita
+#EXTVLCOPT:http-origin=https://ppdd19.playaindg12.xyz/
+#EXTVLCOPT:http-referrer=https://ppdd19.playaindg12.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+https://ddy1-cf.sbbol1011play.sbs/auth%3Dce1d23ba33367b4aeac9a46a45a3e2e0c81605b99a7835bfebf87cac734a5a317052e4c33ae4c359216d8283c20fd7284882edf28bb369992abe8a9cd7bbe564e2aca3f1e3ccdbd2782e900f7e1e0feddc6bb5aca25c07344598c74f43634b8fdbf0262b8810856d5319e825827de45b1b2739c92075b0900b95a3cf2b8dbbbf17f7d1f2949bfb1bdcaa129a2a17083e1a16068c0d5c4e27f423554da1c66fd4%26cid%3DFL9SigfFHhtYNkDxByAxc261122%26_v%3D2%26_r%3DsL4YZO%26_vis%3Dfca2bb2695d25af6633b2e707cdd8e69e5eca4c2916c872ab245e01060860e79%26_vvs%3D0a7d59f5636cfdb9d9287a6f7d8376dd2e292254f373753e8f5f29ab6faa8b1c%26_vas%3Dea9b306d223c7c8c4e09ec74e1bd8ab952e2878a54f157b721529144809eb996/app/c455293.m3u8
+#EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 15:30 WIB Borneo vs Persita
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
 https://live3979.zundrixmediapipeline.com/live/channel16.m3u8
