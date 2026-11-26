@@ -1,7 +1,7 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="ZeroTV" tvg-name="ZeroTV" group-title="ZeroTV Official",ZeroTV Special
 https://raw.githubusercontent.com/zerofeed-id/WELCOME/refs/heads/main/ZeroTV_Tele.ts
-#EXTINF:-1 tvg-id="update-tanggal" tvg-name="Update : 26-nov-2026" tvg-logo="https://kokotv.my.id/Monyet.jpg" group-title="LIVE EVENT HARI INI",Update : 26-nov-2026
+#EXTINF:-1 tvg-id="update-tanggal" tvg-name="Update : 27-nov-2026" tvg-logo="https://kokotv.my.id/Monyet.jpg" group-title="LIVE EVENT HARI INI",Update : 27-nov-2026
 https://stream.playcdn.de/playlist/c1e4652faa967005f005728af5d5417e/5/480.m3u8?x=1
 #EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 15:30 WIB Borneo vs Persita
 #EXTVLCOPT:http-origin=https://player.787200.com/
@@ -106,20 +106,10 @@ https://live1.quickscoreboardz.com/live/channel63.m3u8?wsSecret=f8961a9de190d4ba
 https://nvelop-livecloud.pstatic.net/chzzk/lip2_kr/cflexnmss2u0004/dtnijzootlbfdsa4qn7sqac9ghlu505nv81r/omjylcrlimzbilc9k1hxmr3hlu505nv3s2_hls_playlist.m3u8?hdnts=st=1795686667~exp=1795747877~acl=*/dtnijzootlbfdsa4qn7sqac9ghlu505nv81r/*~hmac=a939d4ba85740da9da75cf08d21528d5d92e7ff84c35d93a6be7468b581e2807
 #EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 17:00 WIB Hyundai EC Hillstate (W) vs SOOP Supers (W)
 https://nvelop-livecloud.pstatic.net/chzzk/lip2_kr/cflexnmss2u0002/typwdzejhnkfdexbqduy2jyuvaaziyt4opmk/a5tcjdae7u03q3mh0ci4llcaaziyt4ol72_hls_playlist.m3u8?hdnts=st=1795686665~exp=1795747875~acl=*/typwdzejhnkfdexbqduy2jyuvaaziyt4opmk/*~hmac=7c707a989bff318ace8911aa0765e15a245f5008d906e8f6cd317ecbd5cf6784
-#EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", REQUEST By Winda to Mas Riko Semangat Kerja Ya.
-https://drive.google.com/uc?export=download&id=1tSECge-GHuxC5VnLMAFgBk_Nsl-HDxwV
+#EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", REQUEST By Agus Susanto (Kaltim) to Istri tercinta di rumah selalu jaga anak anak di rumah ya bun - love u bun ♥️
+https://drive.google.com/uc?export=download&id=1v2QAzCfprIso5ME8d4tNHuZSZD8c675Q
 #EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", REQUEST By PURWANTO (BEKASI) to Istri yang pernah gagal. Semoga kau baik baik saja dan bahagia.
 https://drive.google.com/uc?export=download&id=1Foo1F9vVQ2l8EpHC1Xg0mRcl3apeHG9Q
-#EXTINF:-1 tvg-id="FIBA ASIA CUP 2029" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥18;00 WIB |MONGOLIA VS INDONESIA - FIBA ASIA CUP 2029|
-https://live05.wecile.app/live/90865415.m3u8
-#EXTINF:-1 tvg-id="AFC CHAMPIONS LEAGUE TWO" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 19:15 WIB |BANGKOK GLASS PATHUM VS LION CITY SAILORS - AFC CHAMPIONS LEAGUE TWO| mew6
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d418f733ed224f9bb9c2b1589db22a20:6ed6fe26daa4b926810869ff60254ebb
-https://ls-mp02stg.eo-edgefunctions7.com/out/v1/cc0fc82e76cb4e0093e81695284af443/manifest.mpd
-#EXTINF:-1 tvg-id="AFC CHAMPIONS LEAGUE TWO" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 19:15 WIB |SVAY RIENG VS MACHIDA ZELVIA - AFC CHAMPIONS LEAGUE TWO|
-https://live05.wecile.app/live/07428422.m3u8
-#EXTINF:-1 tvg-id="AFC CHAMPIONS LEAGUE TWO" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 19:15 WIB |WOFOO TAIPO VS ADELAIDE UNITED - AFC CHAMPIONS LEAGUE TWO|
-https://live05.wecile.app/live/75748097.m3u8
 #EXTINF:-1 tvg-id="UEFA EUROPA LEAGUE" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥00;45 WIB |OLYMPIACOS VS MILAN - UEFA EUROPA LEAGUE| tn4
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408
@@ -144,8 +134,10 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd
-#EXTINF:-1 tvg-id="UEFA CONFERENCE LEAGUE" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥22;30 WIB |KAIRAT VS MJALLBY - #UEFA CONFERENCE LEAGUE| be 1in
-EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+#EXTINF:-1 tvg-id="UEFA CONFERENCE LEAGUE" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥22;30 WIB |KAIRAT VS MJALLBY - #UEFA CONFERENCE LEAGUE| prim s2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+#EXTVLCOPT:http-referrer=https://iron1.xn--x2rw19a.space/000/
+https://iron1.xn--x2rw19a.space/puk2/usergenrnd0clv03fyt.m3u8
 #EXTINF:-1 tvg-id="UEFA CONFERENCE LEAGUE" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥00;45 WIB |HEARTS VS MONACO - UEFA CONFERENCE LEAGUE| tn3
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca
@@ -158,21 +150,10 @@ https://live05.wecile.app/live/99121525.m3u8|
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd
 #EXTINF:-1 tvg-id="UEFA CONFERENCE LEAGUE" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥03;00 WIB |FREIBURG VS TWENTE - UEFA CONFERENCE LEAGUE|
 https://live05.wecile.app/live/88508431.m3u8
-#EXTINF:-1 tvg-id="PIALA DUNIA U17" group-logo="https://i.imgur.com/1pJHLzm.png" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 20:00 WIB |SELANDIA BARU VS BELGIA|- PIALA DUNIA U-17 2026 QATAR| fox s2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd
-#EXTINF:-1 tvg-id="PIALA DUNIA U17" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 20:00 WIB |VIETNAM VS MALI - PIALA DUNIA U-17 2026 QATAR| fox on
+#EXTINF:-1 tvg-id="PIALA DUNIA U17" group-logo="https://i.imgur.com/1pJHLzm.png" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg",
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=8ec2e6248abe2e10e16e439c9b85ffd8:f121b015c2a5197828355fb6a874c297
 https://otte.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/worucjnctz/out/v1/20ac5ecdc9b848dc92e7f1188bdf6ff6/cenc.mpd
-#EXTINF:-1 tvg-id="PIALA DUNIA U17" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 21:00 WIB |UZBEKISTAN VS ITALIA - PIALA DUNIA U-17 2026 QATAR|
-https://live05.wecile.app/live/97885009.m3u8
-#EXTINF:-1 tvg-id="PIALA DUNIA U17" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 22:00 WIB |MAROKO VS SPANYOL - PIALA DUNIA U-17 2026 QATAR| caz
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4
-https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?amznDtid=AOAGZA014O5RE&encoding=segmentBase
 #EXTINF:-1 tvg-id="PIALA DUNIA U17" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 23:00 WIB |KROASIA VS KUBA - PIALA DUNIA U-17 2026 QATAR|
 https://live05.wecile.app/live/07808742_tsc.m3u8
 #EXTINF:-1 tvg-id="PIALA DUNIA U17" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 23:00 WIB |TAJIKISTAN VS SENEGAL - PIALA DUNIA U-17 2026 QATAR|
