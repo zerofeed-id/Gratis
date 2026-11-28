@@ -1,5 +1,7 @@
 #EXTM3U
 #EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 22:00 WIB Manchester United vs Brentford
+https://www.rtmpcdn.com/live/47c7fc17-4c1f-45ed-baba-1060957c0c84.m3u8
+#EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 22:00 WIB Manchester United vs Brentford
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
 https://live3979.zundrixmediapipeline.com/live/channel1.m3u8

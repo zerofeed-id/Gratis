@@ -1,48 +1,16 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="ZeroTV" tvg-name="ZeroTV" group-title="ZeroTV Official",ZeroTV Special
 https://raw.githubusercontent.com/zerofeed-id/WELCOME/refs/heads/main/ZeroTV_Tele.ts
-#EXTINF:-1 tvg-id="update-tanggal" tvg-name="Update : 28-nov-2026" tvg-logo="https://kokotv.my.id/Monyet.jpg" group-title="LIVE EVENT HARI INI",Update : 28-nov-2026
+#EXTINF:-1 tvg-id="update-tanggal" tvg-name="Update : 29-nov-2026" tvg-logo="https://kokotv.my.id/Monyet.jpg" group-title="LIVE EVENT HARI INI",Update : 29-nov-2026
 https://stream.playcdn.de/playlist/c1e4652faa967005f005728af5d5417e/5/480.m3u8?x=1
-#EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 16:45 WIB MotoGP Qualifying: Motul Grand Prix of Valencia - MotoGP 2026 Round 22
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd
-#EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 20:30 WIB MotoGP Tissot SPRINT: Motul Grand Prix of Valencia - MotoGP 2026 Round 22
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd
-#EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 15:30 WIB PSM vs Dewa United
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live3979.zundrixmediapipeline.com/live/channel4.m3u8
-#EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 15:30 WIB PSIM Yogyakarta vs Persijap
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live3979.zundrixmediapipeline.com/live/channel13.m3u8
-#EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 15:30 WIB Bali United vs Bhayangkara
-https://live.hztx2020.com/live/14302267_1d1f40baf364056ed8d1f0a0cf15d68c_h360p.m3u8
-#EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 15:30 WIB Bali United vs Bhayangkara
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live3979.zundrixmediapipeline.com/live/channel18.m3u8
-#EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 15:30 WIB Adhyaksa vs PSS Sleman
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live3979.zundrixmediapipeline.com/live/channel22.m3u8
-#EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 19:00 WIB Persija vs Garudayaksa
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live1.quickscoreboardz.com/live/channel15.m3u8?wsSecret=bb63de534ee198814c15ad95ee1b0368&wsABSTime=1795893378
-#EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 19:00 WIB Madura United vs Malut United
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live1.quickscoreboardz.com/live/channel14.m3u8?wsSecret=0d60985b7fb50c97bf042f1420a8d2a5&wsABSTime=1795893322
+#EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 22:00 WIB Leeds United vs Coventry City
+https://www.rtmpcdn.com/live/57e47c7e-e2ba-4901-b8ed-4c1d1203415f.m3u8
 #EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 22:00 WIB Leeds United vs Coventry City
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
 https://live3979.zundrixmediapipeline.com/live/channel11.m3u8
+#EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 22:00 WIB Manchester United vs Brentford
+https://www.rtmpcdn.com/live/47c7fc17-4c1f-45ed-baba-1060957c0c84.m3u8
 #EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 22:00 WIB Manchester United vs Brentford
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
@@ -51,11 +19,6 @@ https://live3979.zundrixmediapipeline.com/live/channel1.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
 https://live3979.zundrixmediapipeline.com/live/channel1.m3u8
-#EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 20:00 WIB Real Betis vs Rayo Vallecano
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f
-https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd
 #EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 22:15 WIB Málaga vs Athletic Club
 #EXTVLCOPT:http-referrer=https://iron1.xn--x2rw19a.space/000/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
@@ -107,12 +70,6 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1
 #EXTVLCOPT:http-referrer=https://pulse1.sanseny001.shop/000/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
 https://pulse1.sanseny001.shop/puk4/usergendx3j2x4tqrnd.m3u8
-#EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 19:15 WIB Al Hazm vs Al Nassr
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
-https://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd
 #EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 21:20 WIB Al Ittifaq vs Al Hilal
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -125,13 +82,6 @@ https://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/ssdefyhkkr/
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
 https://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd
-#EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 19:30 WIB Preston North End vs Norwich City
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
 #EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 22:00 WIB West Bromwich Albion vs Bristol City
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -150,8 +100,6 @@ https://live1.quickscoreboardz.com/live/channel60.m3u8?wsSecret=adb4408bd0c003c9
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
 https://live1.quickscoreboardz.com/live/channel61.m3u8?wsSecret=0b8d9a0f00a47652799fa4bcc63ff93c&wsABSTime=1794935247
-#EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 14:00 WIB Daejeon KGC W vs IBK W
-https://nvelop-livecloud.pstatic.net/chzzk/lip2_kr/cflexnmss2u0002/fbowhy0oohhbffgvts984bhcyhnflwe5sb8y/0y2ueog6b5ddl4re1z9o9xchnflwe5s6ig_hls_playlist.m3u8?hdnts=st=1795848976~exp=1795910186~acl=*/fbowhy0oohhbffgvts984bhcyhnflwe5sb8y/*~hmac=3908af3d89daf82020703596907f38b39331dd9f8f353e5d53d3d0683cbc51a6
 #EXTINF:-1 group-title="LIVE EVENT HARI INI" group-logo="https://i.imgur.com/Q8Fvt6V.png" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg",
 https://shorter.me/MVdCf
 #EXTINF:-1 tvg-id="PIALA DUNIA U17" group-logo="https://i.imgur.com/1pJHLzm.png" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg",
@@ -167,46 +115,16 @@ LINKNYA TIAP HRI D GNTI USER NYA😂🤣COBA AJA SENDIRI KALO NGGK PRCYA😁
 #KODIPROP:inputstream.adaptive.license_key=https://bandeltv.xyz/sc1980/2025/Kvision/drm.php?id=1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 https://bandeltv.xyz/sc1980/2025/Kvision/mpd.php/.mpd?id=1
-#EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", REQUEST By Rahmat (LAMPUNG) to istri - sabar ya - Rahmat tetap berjuang 🙏
-https://drive.google.com/uc?export=download&id=1BDIjTv1ekSTBjdMx6rz5W-Ikdg_HBlxW
+#EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", REQUEST By DESVITA MAHARANI (JAKARTA) to SWAMIKU TERSAYANG DI SEMARANG ♥️
+https://drive.google.com/uc?export=download&id=1UHopnN7N8Nkhzq5fflVJCNRUh9I4qWvy
 #EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", REQUEST By Armadi (BANJARMASIN) to someone di Bandung - Hany kamu di hatiku ♥️
 https://drive.google.com/uc?export=download&id=1RCV5OVlWRZntVZ4tDeMYUev8jBXIliGg
 #EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", REQUEST By GUITAR FINGERSTYLE - Rindu Almarhum Ayah Tercinta 😭
 https://drive.google.com/uc?export=download&id=125JM4zcC8Fd0fPi6LVyD47SHAPLi273D
-#EXTINF:-1 tvg-id="VOLLBALL" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 𝙇𝙄𝙑𝙀 - 14;00 WIB |DAEJON VS IBK - VOLLEYBALL V-LEAGUE|
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xl365.domainkqt.cc/ajax/chanel/type/7/link/channel82/off-tvc?is_off_add=false
-https://live1.quickscoreboardz.com/live/channel82/playlist.m3u8?wsSecret=8e29624b09ed84511783fe082ae59daf&wsABSTime=1795889877
 #EXTINF:-1 group-title="LIVE EVENT HARI INI" group-logo="https://i.imgur.com/tIHIIQs.png" tvg-logo="https://kokotv.my.id/Foto/badminton.jpeg", COURT 1 |24 - 29 NOV 2026| INDIA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel60/off-tvc?is_off_add=false
 https://live1.quickscoreboardz.com/live/channel60/playlist.m3u8?wsSecret=d70f171ceb6c15cf310229b0f17b0f3a&wsABSTime=1795617989
-#EXTINF:-1 tvg-id="EFL CHAMPIONSHIP INGGRIS" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 19:30 WIB |BLACKBURN ROVERS VS CHARLTON - EFL CHAMPIONSSHIP| sky +
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1"
-#EXTVLCOPT:http-referrer=https://aesport.tv/
-https://sw.run/CAMPWIKI-SKY-SPORTS
-#EXTINF:-1 tvg-id="EFL CHAMPIONSHIP INGGRIS" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 19:30 WIB |LINCOLN CITY VS WOLVERHAMPTON - EFL CHAMPIONSSHIP|
-https://live05.wecile.app/live/97885009.m3u8
-#EXTINF:-1 tvg-id="EFL CHAMPIONSHIP INGGRIS" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 19:30 WIB |PRESTON NORTH VS NORWICH CITY - EFL CHAMPIONSSHIP| be 2us
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
-https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
-#EXTINF:-1 tvg-id="EFL CHAMPIONSHIP INGGRIS" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 22:00 WIB |MILWALL VS BURNLEY - EFL CHAMPIONSSHIP| cbs
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861
-https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/rbem8rorcw/out/v1/5318821e2c3c44c2a439681b9aa86e9b/cenc.mpd
-#EXTINF:-1 tvg-id="EFL CHAMPIONSHIP INGGRIS" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 22:00 WIB |WEST BROMWICH VS ALBION BRISTOL CITY - EFL CHAMPIONSSHIP| be 2u2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
-https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
-#EXTINF:-1 tvg-id="EFL CHAMPIONSHIP INGGRIS" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 22:00 WIB |WEST HAM UNITED VS STOKE CITY - EFL CHAMPIONSSHIP|
-https://live05.wecile.app/live/18812304.m3u8
 #EXTINF:-1 tvg-id="LIGUE 1" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥23;15 WIB |ANGERS SCO VS LENS - LIGUE 1| be usa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -231,23 +149,8 @@ https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/3ynrpdanq2/
 http://lite1kh.com:80/190799414865/CDt6HaugYo2jLWl/179126
 #EXTINF:-1 tvg-id="LIGUE 1" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥02;45 WIB |NICE VS TROYES - LIGUE 1|
 https://live05.wecile.app/live/88508431.m3u8
-#EXTINF:-1 tvg-id="PREMIER LEAGUE" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥22;00 WIB |LEEDS UNITED VS COVENTRY CITY - PREMIER LEAGUE| ast pl2
-http://tv.cloudcdn.me:80/live.ts?channelId=93740&uid=10223&deviceMac=00:1A:79:07:07:43&deviceSn=84F4AB37DF6E6
-#EXTINF:-1 tvg-id="PREMIER LEAGUE" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥22;00 WIB |MANCHESTER UNITED VS BRENTFORD - PREMIER LEAGUE| daz1
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1"
-#EXTVLCOPT:http-referrer=https://aesport.tv/
-https://liveua.cdnfly.click/pt_elevensport1/index.m3u8
 #EXTINF:-1 tvg-id="PREMIER LEAGUE" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥00;30 WIB |IPSWICH TOWN VS ASTON VILLA - PREMIER LEAGUE| ast pl2
 http://tv.cloudcdn.me:80/live.ts?channelId=93740&uid=10223&deviceMac=00:1A:79:07:07:43&deviceSn=84F4AB37DF6E6
-#EXTINF:-1 tvg-id="LALIGA" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥20;00 WIB |REAL BETIS VS RAYO VALLECANO - LALIGA| prem s1
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f
-http://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/vwq77hfgzw/out/v1/b858e0b845c64cec953887bd4269e4ea/cenc.mpd
-#EXTINF:-1 tvg-id="LALIGA" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥22;15 WIB |MALAGA VS ATHLETIC CLUB - LALIGA| prim s2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
-#EXTVLCOPT:http-referrer=https://iron1.xn--x2rw19a.space/000/
-https://iron1.xn--x2rw19a.space/puk2/usergenrnd0clv03fyt.m3u8
 #EXTINF:-1 tvg-id="LALIGA" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥00;30 WIB |ELCHE VS ATLETICO MADRID - LALIGA| be 2us
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -262,10 +165,6 @@ https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/8m8cd46i1t/
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
 https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
-#EXTINF:-1 tvg-id="SERIE A ITALIA" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥21;00 WIB |FROSINONE VS PARMA - SERIE A ITALIA|  prim s3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://iron1.xn--x2rw19a.space/000/
-https://sw.run/CAMPKTR-PRIMA-SPORT3
 #EXTINF:-1 tvg-id="SERIE A ITALIA" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥00;00 WIB |TORINO VS LAZIO - SERIE A ITALIA| be 3us
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -286,30 +185,8 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1
 https://dokagents.site/live/pr5/mono.m3u8
 #EXTINF:-1 tvg-id="EREDIVISIE" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥03;00 WIB |CAMBUUR VS SPARTA ROTTERDAM - EREDIVISIE|
 https://live05.wecile.app/live/87547578.m3u8
-#EXTINF:-1 tvg-id="BUNDESLIGA" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥21;30 WIB |PADERBORN VS SCHALKE - BUNDESLIGA|
-https://live05.wecile.app/live/16226575.m3u8
-#EXTINF:-1 tvg-id="BUNDESLIGA" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥21;30 WIB |MAINZ 05 VS UNION BERLIN - BUNDESLIGA|
-https://live05.wecile.app/live/88508431.m3u8
-#EXTINF:-1 tvg-id="BUNDESLIGA" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥21;30 WIB |KOLN VS ELVESBERG - BUNDESLIGA| prim ply1
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1"
-#EXTVLCOPT:http-referrer=https://pulse1.sanseny001.shop/000/
-https://pulse1.sanseny001.shop/puki1/usergendx6kal0r2bsm.m3u8
-#EXTINF:-1 tvg-id="BUNDESLIGA" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥21;30 WIB |HAMBURGER VS BAYERN MUNCHEN - BUNDESLIGA| go3 s1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"d61dd42538485231a29c656720dda04b":"d9657dd12e5fb59722aaf6adaf4c157a","9c8bc0cd6b255ad18b921387cf875f21":"64fb3b05953c7005d1e16e53bb54a0ae","a4ca788259405bd68cff11f6ea1ce8e4":"a236125571a004d4c073e16895c21f71"}
-https://shortcut-edgeware.helio.lv/__cl/cg:EDW-Production_HTTP/__c/212_HTTP/__op/dash-widevine/__f/manifest.mpd
 #EXTINF:-1 tvg-id="BUNDESLIGA" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥00;30 WIB |STUTTGART VS EINTRACHT FRANKFURT - BUNDESLIGA| unit s2
 http://tv.cloudcdn.me:80/live.ts?channelId=134125&uid=19260&deviceMac=00:1A:79:00:02:27
-#EXTINF:-1 tvg-id="SAUDI PRO LEAGUE-VDOG A-RAP" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥19;15 WIB |AL-HAZM VS AL-NASSR - LIGA PRO ARAB SAUDI| prim S4
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
-#EXTVLCOPT:http-referrer=https://pulse1.sanseny001.shop/000/
-https://pulse1.sanseny001.shop/puk4/usergendx3j2x4tqrnd.m3u8
-#EXTINF:-1 tvg-id="SAUDI PRO LEAGUE-VDOG A-RAP" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥21;20 WIB |AL-ITTIFAQ VS AL-HILAL - LIGA PRO ARAB SAUDI| fox s2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd
 #EXTINF:-1 tvg-id="SAUDI PRO LEAGUE-VDOG A-RAP" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥00;30 WIB |AL-AHLI VS AL-TAAWOUN - LIGA PRO ARAB SAUDI| prim ply1
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1"
 #EXTVLCOPT:http-referrer=https://pulse1.sanseny001.shop/000/

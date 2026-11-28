@@ -1,6 +1,0 @@
-#EXTM3U
-#EXTINF:-1 group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 20:30 WIB MotoGP Tissot SPRINT: Motul Grand Prix of Valencia - MotoGP 2026 Round 22
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd

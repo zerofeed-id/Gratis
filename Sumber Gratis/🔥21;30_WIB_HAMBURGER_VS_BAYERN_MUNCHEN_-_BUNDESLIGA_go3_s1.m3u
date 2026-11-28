@@ -1,6 +1,0 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="BUNDESLIGA" group-title="LIVE EVENT HARI INI" tvg-logo="https://kokotv.my.id/Foto/kokotvevent.jpeg", 🔥21;30 WIB |HAMBURGER VS BAYERN MUNCHEN - BUNDESLIGA| go3 s1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"d61dd42538485231a29c656720dda04b":"d9657dd12e5fb59722aaf6adaf4c157a","9c8bc0cd6b255ad18b921387cf875f21":"64fb3b05953c7005d1e16e53bb54a0ae","a4ca788259405bd68cff11f6ea1ce8e4":"a236125571a004d4c073e16895c21f71"}
-https://shortcut-edgeware.helio.lv/__cl/cg:EDW-Production_HTTP/__c/212_HTTP/__op/dash-widevine/__f/manifest.mpd
